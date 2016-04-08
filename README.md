@@ -16,6 +16,8 @@
 
 ##Technology Radar
 
+See the [wiki](https://github.com/nicholasjhenry/company_next/wiki/Technology-Radar) for more details.
+
 ### Quadrants
 - Techniques
 - Tools
