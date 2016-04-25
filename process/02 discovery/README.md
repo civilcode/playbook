@@ -32,6 +32,7 @@ Scheduled across two half-days, ideally Monday afternoon and Tuesday morning.
 ### Contents
 
 - [ ] Scope
+- [ ] 25 word statement of the application's purpose (6W's)
 - [ ] Context Model
 - [ ] Actor Table
 - [ ] Story Map
