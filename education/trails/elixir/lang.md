@@ -17,3 +17,7 @@
 - pattern matching
 - non-scalar data types
 - strings
+
+## Development Resources
+
+- [Curated list of packages](https://github.com/h4cc/awesome-elixir)
