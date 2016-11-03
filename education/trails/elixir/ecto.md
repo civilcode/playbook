@@ -2,6 +2,7 @@
 
 ## Getting started
 
+- Get motivated: [Leveling Up With Ecto](https://www.youtube.com/watch?v=QE7bpqpDoKo)
 - Start with "Programming Phoenix". Part 1 contains chapters specifically related to Ecto which will provide a foundation.
 - Read the API documentation. Focus on these areas:
   - [Ecto Overview](https://hexdocs.pm/ecto/2.0.0-beta.2/Ecto.html)
