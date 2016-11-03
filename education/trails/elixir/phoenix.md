@@ -10,3 +10,5 @@
 
 * [Controller Control: Designing Domains for Web Applications](http://www.elixir.london/2016/gary-rennie)
 * [Refactoring Techniques for Elixir, Ecto, and Phoenix by Gary Rennie](https://www.youtube.com/watch?v=V21DAKtY31Q)
+* [Building Umbrella Project by Wojtek Mach](https://www.youtube.com/watch?v=6NTmUQClHrU)
+* [Our example Umbrella application](https://github.com/civilcode/loud_mouth_ex)
