@@ -20,4 +20,5 @@
 
 ## Development Resources
 
+- [Hex.pm](https://hex.pm/)
 - [Curated list of packages](https://github.com/h4cc/awesome-elixir)
