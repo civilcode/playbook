@@ -18,6 +18,13 @@
 - non-scalar data types
 - strings
 
+## Learning about Strings
+
+The string implementation in Elixir is more powerful in other languages, but that comes with more of a learning curve.
+
+- [Elixir for Rubyists: Charlists |> Binary’s |> Strings | IOLists](https://medium.com/@harry_dev/elixir-for-rubyists-charlists-binarys-strings-iolists-eeacf38db999#.epqpak41e)
+- [String Theory - ElixirConf 2016](https://www.youtube.com/watch?v=zZxBL-lV9uA)
+
 ## Development Resources
 
 - [Hex.pm](https://hex.pm/)
