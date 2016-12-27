@@ -25,6 +25,10 @@ The string implementation in Elixir is more powerful than in other languages, bu
 - [Elixir for Rubyists: Charlists |> Binary’s |> Strings | IOLists](https://medium.com/@harry_dev/elixir-for-rubyists-charlists-binarys-strings-iolists-eeacf38db999#.epqpak41e)
 - [String Theory - ElixirConf 2016](https://www.youtube.com/watch?v=zZxBL-lV9uA)
 
+## Understand data structures
+
+- [When to Use Structs, String-keyed Maps, and Atom-keyed Maps](https://engineering.appcues.com/2016/02/02/too-many-dicts.html)
+
 ## Development Resources
 
 - [Hex.pm](https://hex.pm/)
