@@ -10,6 +10,7 @@
   - [Schema](https://hexdocs.pm/ecto/2.0.0-beta.2/Ecto.Schema.html)
   - [Changesets](https://hexdocs.pm/ecto/2.0.0-beta.2/Ecto.Changeset.html)
   - [Query](https://hexdocs.pm/ecto/2.0.0-beta.2/Ecto.Query.html) and [Query.API](https://hexdocs.pm/ecto/2.0.0-beta.2/Ecto.Query.API.html)
+- [What's new in Ecto 2.0](http://pages.plataformatec.com.br/ebook-whats-new-in-ecto-2-0)
 
 ## Additional References to help out round your understanding:
 
