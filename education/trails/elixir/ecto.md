@@ -23,6 +23,15 @@
 - [Composable Queries with Ecto](http://confreaks.tv/videos/elixirconf2015-composable-queries-with-ecto)
 - [Ecto](http://confreaks.tv/videos/elixirconfeu2015-ecto)
 
+## "Patterns"
+
+Ecto, as a database wrapper, is significantly different to ORM such as Rails' ActiveRecord. Dealing with certain data structures are not quite "out-of-the box". Here's a few patterns to deal with these:
+
+- [Many to many and upserts](http://blog.plataformatec.com.br/2016/12/many-to-many-and-upserts/)
+- TODO: Add another Many to many
+- [Modeling Polymorphic Associations in a Relational Database](https://hashrocket.com/blog/posts/modeling-polymorphic-associations-in-a-relational-database)
+- [Ecto Docs Polymorphic Associations](https://hexdocs.pm/ecto/Ecto.Schema.html#belongs_to/3-polymorphic-associations)
+
 ## Asking for help
 
 - [Google Groups](https://groups.google.com/forum/#!forum/elixir-ecto)
