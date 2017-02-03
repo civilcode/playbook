@@ -34,4 +34,4 @@ Les compétences ci-dessous sont souhaitable, mais non requires. Si vous ne poss
 
 Veuillez nous écrire à bonjour@civilcode.io avec le sujet «Poste de développeur d'applications d'affaire». Veuillez inclure votre CV ou votre profil LinkedIn ainsi qu'un bref paragraphe expliquant pourquoi cette opportunité vous intéresse.
 
-Pour plus d'informations sur CivilCode Inc. visitez http://www.civilcode.io/.
+Pour plus d'informations sur CivilCode Inc. visitez http://www.civilcode.io/accueil.html.
