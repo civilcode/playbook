@@ -29,6 +29,6 @@ The items below would be great as well. If you don't check any of these boxes it
 
 ## To Apply
 
-Please send an email to bonjour@civilcode.io with the subject "Business Application Developer Position." Please include your CV or LinkedIn Profile along with a brief paragraph on why this opportunity is of interest.
+Please fill out [this form](https://goo.gl/forms/4hrtqhMZfGE4ICjn1).
 
 For more information about CivilCode Inc. visit http://www.civilcode.io/.
