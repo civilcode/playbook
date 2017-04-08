@@ -16,8 +16,7 @@
 
 - [Composable Queries with Ecto](https://blog.drewolson.org/composable-queries-ecto/)
 - [Working with Ecto associations and embeds](http://blog.plataformatec.com.br/2015/08/working-with-ecto-associations-and-embeds/)
-- [The Ecto Query Library - Lew Parker](http://www.glydergun.com/the-ecto-query-library/)
-- [Nicholas' Bookmarks](https://pinboard.in/u:nicholasjhenry/t:ecto/)
+ - [Nicholas' Bookmarks](https://pinboard.in/u:nicholasjhenry/t:ecto/)
 
 ## Talks
 
