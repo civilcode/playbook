@@ -20,6 +20,8 @@ defmodule MyApp.OrderService do
 end
 ```
 
+The following conventions are under consider, **please ignore these for now**.
+
 ## Domain Concepts - Entities and Values
 
 Domain concepts contain two sections:
