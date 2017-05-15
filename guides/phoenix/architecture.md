@@ -151,6 +151,7 @@ The following guidance is *vitally important*:
 - avoid "god" modules
 - compose the application with small modules representing a specific concern
 - avoid circular dependencies between modules `Approvals` -> `Catalog`
+- when referencing modules from a different name space, use a qualified module name, (e.g. when referencing `Variant` in the `Catalog` module, just alias `MyApp.Catalog`, and reference `Catalog.Variant` in functions). This highlights references to referencing modules outside of the current context
 - create "shadow" modules that represent existing domain concepts in different Concerns
 - e.g. `Catalog.Variant` is an existing domain concept that can be represented in other contexts as `Approvals.Variant`
 - consider creating specific schemas as well
