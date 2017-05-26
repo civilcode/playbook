@@ -2,7 +2,7 @@
 
 - do not provide module-level documentation for modules suffixed with their archetype (e.g. `Service`, `Controller`, `Query`, `Repo`)
 - apply `@module false` to these modules.
-- [typespec](http://elixir-lang.org/getting-started/typespecs-and-behaviours.html#types-and-specs) is mandatory for public functions
+- [typespec](http://elixir-lang.org/getting-started/typespecs-and-behaviours.html#types-and-specs) is mandatory for public functions (except in controllers and views)
 - there are recommendations for documenting specific archetypes:
 
 ## Services
