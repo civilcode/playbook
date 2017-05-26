@@ -74,7 +74,7 @@ Alignment of parameters is not addressed in the Community Guide.
   # preferred
   Enum.find_index([2, 3, 4], &(rem(&1, 2) == 1))
 
-  # multiline - preferred
+  # multi-line - preferred
   Enum.find_index(
     [2, 3, 4],
     &(rem(&1, 2) == 1)
