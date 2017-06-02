@@ -3,27 +3,14 @@
 ## Getting started
 
 - Get motivated: [Keynote: Think Different by Dave Thomas](https://www.youtube.com/watch?v=5hDVftaPQwY)
-- Learn the basics: [Elixir Guides](http://elixir-lang.org/getting-started/introduction.html)
+- Learn the basics: [Elixir Guides](http://elixir-lang.org/getting-started/introduction.html) and [Try Elixir](https://www.codeschool.com/courses/try-elixir) from Codeschool (free interactive course)
 - Read the book: [Programming Elixir](https://pragprog.com/book/elixir/programming-elixir)
 
 ## Beyond the basics
 
-- [Elixir in Action](https://www.manning.com/books/elixir-in-action) (highly recommended)
-- [Elixir Sips](http://elixirsips.com/)
-- See [Elixir Lang website for more resources](http://elixir-lang.org/learning.html)
-
-## Training
-
 - [Developing With Elixir/OTP](https://pragmaticstudio.com/courses/elixir) from PragProg Studio (49$)
-  - Covers Elixir and OTP
-  - Recommended
-- [Try Elixir](https://www.codeschool.com/courses/try-elixir) from Codeschool (free)
-  - Great interactive training to get the basics
-- [Mixing It Up With Elixir](https://www.codeschool.com/courses/mixing-it-up-with-elixir/) from Codeschool (subscription)
-  - Elixir only, no web
-- [Elixir School](https://elixirschool.com/lessons/basics/collections/) (free)
-  - Online book
-  - Great for getting familiar with an Elixir concept
+- [Elixir in Action](https://www.manning.com/books/elixir-in-action) (highly recommended)
+- See [Elixir Lang website for more resources](http://elixir-lang.org/learning.html)
 
 ## Start with focusing on Elixir's conventional programming concepts:
 
@@ -46,3 +33,4 @@ The string implementation in Elixir is more powerful than in other languages, bu
 
 - [Hex.pm](https://hex.pm/)
 - [Curated list of packages](https://github.com/h4cc/awesome-elixir)
+- [Elixir Sips](http://elixirsips.com/)
