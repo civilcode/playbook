@@ -12,6 +12,19 @@
 - [Elixir Sips](http://elixirsips.com/)
 - See [Elixir Lang website for more resources](http://elixir-lang.org/learning.html)
 
+## Training
+
+- [Developing With Elixir/OTP](https://pragmaticstudio.com/courses/elixir) from PragProg Studio (49$)
+  - Covers Elixir and OTP
+  - Recommended
+- [Try Elixir](https://www.codeschool.com/courses/try-elixir) from Codeschool (free)
+  - Great interactive training to get the basics
+- [Mixing It Up With Elixir](https://www.codeschool.com/courses/mixing-it-up-with-elixir/) from Codeschool (subscription)
+  - Elixir only, no web
+- [Elixir School](https://elixirschool.com/lessons/basics/collections/) (free)
+  - Online book
+  - Great for getting familiar with an Elixir concept
+
 ## Start with focusing on Elixir's conventional programming concepts:
 
 - pattern matching
