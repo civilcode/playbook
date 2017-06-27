@@ -1,6 +1,6 @@
 ### Agenda
 
-purpose: provide an understanding of the development and feedback process and the tooling to support that
+Purpose: provide an understanding of the development and feedback process and the tooling to support that
 
 - introduction
 - overview of process
