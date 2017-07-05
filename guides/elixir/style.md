@@ -101,3 +101,14 @@ Alignment of parameters is not addressed in the Community Guide.
 
   NOTE: this is a deviation from the [community guide](https://github.com/christopheradams/elixir_style_guide#with-else
 ). The `do` is aligned with the other keywords. This makes it easier to see the body of the `do` block as there maybe multiple statements in the `with` block.
+
+
+### Typespecs
+
+* If the spec does not fit on one line, indent using two spaces and place the `::` separator at the end of the line:
+
+  ```elixir
+  @spec calculate_payouts(shipment_id :: number) ::
+    {:ok, PayoutWithALongNameToShowHowToSplitTheLine.t} | 
+    {:error, reason :: String.t | atom}
+  ```
