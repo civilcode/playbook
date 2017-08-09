@@ -1,6 +1,6 @@
 # Development
 
-## How work
+## How we work
 
 Before contributing to development there are a number of concepts you need to understand:
 
