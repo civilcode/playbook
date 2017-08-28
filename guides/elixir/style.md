@@ -41,7 +41,7 @@ Alignment of parameters is not addressed in the Community Guide.
 
   ```elixir
   # single line
-  order = build(:order, customer: customer, seller: seller, quantity: 3])
+  order = build(:order, customer: customer, seller: seller, quantity: 3)
 
   # explanation only - do not use  
   order = build(:order, [
