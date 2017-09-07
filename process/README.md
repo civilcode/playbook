@@ -2,11 +2,11 @@
 
 ## Stages
 
-1. [Engagement](./01 engagement/README.md)
-2. [Onboarding](./02 onboarding/README.md)
-3. [Discovery](./03 discover/README.md)
-4. [Iteration Zero](./04 discover/README.md)
-5. [Development](./05 development/README.md)
+1. [Engagement](01%20engagement/README.md)
+2. [Onboarding](02%20onboarding/README.md)
+3. [Discovery](03%20discovery/README.md)
+4. [Iteration Zero](04%20iteration-zero/README.md)
+5. [Development](05%20development/README.md)
 
 ## The Big Five
 
