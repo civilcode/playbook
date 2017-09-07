@@ -35,16 +35,3 @@ We develop the application feature by feature using the [Feature-Driven Developm
 * Add more detail to the mockups
 
 Then you're ready to [Build by Feature](./fdd/build-feature.md)...
-
-## Peer Review
-
-- [ ] review code
-- [ ] check I18n
-- [ ] review against style guides
-- [ ] review database design
-- [ ] review development log (SQL)
-- [ ] review demo seeds
-- [ ] verify feature/exploratory testing (manual)
-- [ ] verify data migration
-- [ ] verify code coverage (i.e. check output from simplecov)
-- [ ] verify acceptance test answers the 6W's (why, what, who, when, where, how)
