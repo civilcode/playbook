@@ -15,8 +15,8 @@ We develop the application feature by feature using the [Feature-Driven Developm
 1. We start with _Developing an Overall Object Model_
 2. We _Build a Feature Roadmap_ based on the Object Model
 3. We _Plan Feature Development_ based on the Roadmap
-4. We [[Design by Feature]]
-5. We [[Build by Feature]]
+4. We [Design by Feature](./fdd/design-feature.md)
+5. We [Build by Feature](./fdd/build-feature.md)
 
 ## Design by Feature
 
@@ -34,7 +34,7 @@ We develop the application feature by feature using the [Feature-Driven Developm
 
 * Add more detail to the mockups
 
-Then you're ready to [[Build by Feature]]...
+Then you're ready to [Build by Feature](./fdd/build-feature.md)...
 
 ## Peer Review
 
