@@ -13,7 +13,7 @@ Before contributing to development there are a number of concepts you need to un
 We develop the application feature by feature using the [Feature-Driven Development](https://en.wikipedia.org/wiki/Feature-driven_development) process. This means:
 
 1. We start with _Developing an Overall Object Model_
-2. We _Build a Feature Roadmap_ based on the Object Model
+2. We [Build a Feature Roadmap](./fdd/feature-list.md) based on the Object Model
 3. We _Plan Feature Development_ based on the Roadmap
 4. We [Design by Feature](./fdd/design-feature.md)
 5. We [Build by Feature](./fdd/build-feature.md)
