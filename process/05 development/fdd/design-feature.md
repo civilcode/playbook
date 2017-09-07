@@ -1,5 +1,7 @@
 # Design Feature
 
+Tasks (copy into GitHub issue): 
+
 - [ ] Conduct a domain walk-through
 - [ ] Develop the sequence diagrams
 - [ ] Model the state transitions
@@ -10,4 +12,4 @@
 
 Outputs:
 
-* Design Work Package
+* Design Work Package documented in the GitHub issue
