@@ -12,16 +12,17 @@ Before contributing to development there are a number of concepts you need to un
 
 We develop the application feature by feature using the [Feature-Driven Development](https://en.wikipedia.org/wiki/Feature-driven_development) process. This means:
 
-1. We start with _Developing an Overall Object Model_
+1. We start with _Developing an Overall [Object Model](../../education/trails/object-modeling.md)_
 2. We [Build a Feature Roadmap](./fdd/feature-list.md) based on the Object Model
 3. We _Plan Feature Development_ based on the Roadmap
 4. We [Design by Feature](./fdd/design-feature.md)
 5. We [Build by Feature](./fdd/build-feature.md)
 
-## Design by Feature
+## Designing by Feature
 
 ## For each module:
 
+- [ ] Complete Discovery using Eventstorming or Story Mapping (if not previously done so)
 * Obtain any related documents
 * Conduct a domain walk-through
 * Model the state transitions
