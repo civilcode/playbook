@@ -1,4 +1,4 @@
-# Feature-Driven Design
+# Feature-Driven Development
 
 * While we don't following FDD to the letter, it's an important concept that drives how we manage
   the project and structure the application.
