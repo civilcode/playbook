@@ -42,6 +42,11 @@ defmodule MyApp.OrderService do
   require Ecto.Query
   alias MyApp.{Order, Repo}
 
+# I think this is just a point for discussion. if `Order.released_for_shipment?(order)`
+returns `false`, return value from `with` function also `false`, which could be confusing.
+Maybe add else case which would return `{:error, reason}`? Also, in codebase I think I've seen
+a good pattern being used by returning `{:ok, result}`. I am wondering if we shall reflect that
+good use of with in here?
   def acknowledge(%{"order_id" => order_id}, seller_id) do
     with order <- fetch_order(order_id, seller_id)
          true <- Order.released_for_shipment?(order),
@@ -65,7 +70,7 @@ end
   * enforces invariants
 * e.g. `Order` -> `LineItem`
   * always work with these as a unit
-  * the changeset includes the the root `Order` and the children `LineItem`
+  * the changeset includes the root `Order` and the children `LineItem`
   * `Order.add_line_item(order, params)` -> an order changeset with a new line item
 * contain functions for business logic respecting business rules
 * called by `Service` modules
@@ -97,7 +102,7 @@ defmodule MyApp.Order
 
   # predicates
 
-  def released_for_shipment?(%{order_status "ReleasedForShipment"}), do: true
+  def released_for_shipment?(%{order_status: "ReleasedForShipment"}), do: true
   def released_for_shipment?(_), do: false
 
   #...
