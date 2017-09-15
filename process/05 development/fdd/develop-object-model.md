@@ -1,7 +1,7 @@
 * 25-word purpose statement
 * Identify the top 10 features
 * or High Value Scenarios (Scenarios for conducting business and determining results)
-* [Four kinds of features](four-kinds-of-features)  <--- What think link shall point to?
+* [Four kinds of features](#four_kinds_of_features)
 * Conduct a Domain Walkthrough
 * Study Documents
 * Build a glossary
@@ -14,7 +14,7 @@
 * Consider "Line of Visibility" chart (LOVEM)
 * Consider reviewing existing object models from other books
 
-## Four kinds of features
+## Four kinds of features<a name="four_kinds_of_features"></a>
 
 * Log important information
 * Conduct business
