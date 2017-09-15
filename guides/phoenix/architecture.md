@@ -42,15 +42,9 @@ defmodule MyApp.OrderService do
   require Ecto.Query
   alias MyApp.{Order, Repo}
 
-# I think this is just a point for discussion. if `Order.released_for_shipment?(order)`
-returns `false`, return value from `with` function also `false`, which could be confusing.
-Maybe add else case which would return `{:error, reason}`? Also, in codebase I think I've seen
-a good pattern being used by returning `{:ok, result}`. I am wondering if we shall reflect that
-good use of with in here?
   def acknowledge(%{"order_id" => order_id}, seller_id) do
-    with order <- fetch_order(order_id, seller_id)
-         true <- Order.released_for_shipment?(order),
-         changeset <- Order.acknowledge(order),
+    with order = fetch_order(order_id, seller_id)
+        {:ok, changeset} <- Order.acknowledge(order),
     do: Repo.update(changeset)
   end
 
