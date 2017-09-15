@@ -43,9 +43,8 @@ defmodule MyApp.OrderService do
   alias MyApp.{Order, Repo}
 
   def acknowledge(%{"order_id" => order_id}, seller_id) do
-    with order <- fetch_order(order_id, seller_id)
-         true <- Order.released_for_shipment?(order),
-         changeset <- Order.acknowledge(order),
+    with order = fetch_order(order_id, seller_id)
+        {:ok, changeset} <- Order.acknowledge(order),
     do: Repo.update(changeset)
   end
 
@@ -65,7 +64,7 @@ end
   * enforces invariants
 * e.g. `Order` -> `LineItem`
   * always work with these as a unit
-  * the changeset includes the the root `Order` and the children `LineItem`
+  * the changeset includes the root `Order` and the children `LineItem`
   * `Order.add_line_item(order, params)` -> an order changeset with a new line item
 * contain functions for business logic respecting business rules
 * called by `Service` modules
@@ -97,7 +96,7 @@ defmodule MyApp.Order
 
   # predicates
 
-  def released_for_shipment?(%{order_status "ReleasedForShipment"}), do: true
+  def released_for_shipment?(%{order_status: "ReleasedForShipment"}), do: true
   def released_for_shipment?(_), do: false
 
   #...
