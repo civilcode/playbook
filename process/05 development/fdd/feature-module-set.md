@@ -12,7 +12,7 @@ Copy the following into GitHub issue:
 - [ ] Obtain any related documents
 - [ ] Complete Discovery using Eventstorming or Story Mapping
 - [ ] Create an object model
-- [ ] Create a [Feature List](./feature-list.md)
+- [ ] Create a [Feature List](https://github.com/civilcode/playbook/blob/master/process/05%20development/fdd/feature-list.md)
 - [ ] Model the state transitions
 - [ ] Determine business rules
 - [ ] Identify UI components (mockup with [Balsamiq Mockups](https://balsamiq.com/products/mockups/)
