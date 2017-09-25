@@ -19,8 +19,8 @@ We develop the application feature by feature using the [Feature-Driven Developm
 1. We start with _Developing an Overall [Object Model](../../education/trails/object-modeling.md)_
 2. We [Build a Feature Roadmap](./fdd/feature-list.md) (module, feature-set, feature) based on the Object Model
 3. We _Plan Feature Development_ based on the Roadmap
-4. We [Design by Feature](./fdd/feature#design.md)
-5. We [Build by Feature](./fdd/feature#build.md)
+4. We [Design by Feature](./fdd/feature.md#design)
+5. We [Build by Feature](./fdd/feature.md#build)
 
 ### Designing by Feature using GitHub
 
