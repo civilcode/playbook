@@ -7,7 +7,7 @@ Copy the following into GitHub issue:
 
 ---
 
-# Tasks
+## Tasks
 
 - [ ] Obtain any related documents
 - [ ] Complete Discovery using Eventstorming or Story Mapping
@@ -17,30 +17,30 @@ Copy the following into GitHub issue:
 - [ ] Determine business rules
 - [ ] Identify UI components (mockup with [Balsamiq Mockups](https://balsamiq.com/products/mockups/)
 
-# Statement of Purpose
+## Statement of Purpose
 
 {what is the purpose of this module}
 
-# Feature List
+## Feature List
 
 {insert feature list}
 
-# Event-storming Model (or Story Mapping)
+## Event-storming Model (or Story Mapping)
 
 {insert appropriate diagram and update title}
 
-# Object Model
+## Object Model
 
 {insert diagram}
 
-# State Diagrams
+## State Diagrams
 
 {insert diagram}
 
-# Business rules
+## Business rules
 
 {add business rules}
 
-# Mockups
+## Mockups
 
 {insert mockups}
