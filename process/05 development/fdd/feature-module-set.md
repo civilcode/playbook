@@ -17,6 +17,10 @@ Copy the following into GitHub issue:
 - [ ] Determine business rules
 - [ ] Identify UI components (mockup with [Balsamiq Mockups](https://balsamiq.com/products/mockups/)
 
+# Statement of Purpose
+
+{what is the purpose of this module}
+
 # Feature List
 
 {insert feature list}
