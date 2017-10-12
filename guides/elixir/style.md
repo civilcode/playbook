@@ -117,3 +117,4 @@ Alignment of parameters is not addressed in the Community Guide.
   
 * <a name="acronyms"></a>
     Treat acronyms as words in names (XmlHttpRequest not XMLHTTPRequest), even if the acronym is the entire name (class Html not class HTML).
+    <sup>[[link](#acronyms)]</sup>
