@@ -112,3 +112,8 @@ Alignment of parameters is not addressed in the Community Guide.
     {:ok, PayoutWithALongNameToShowHowToSplitTheLine.t} | 
     {:error, reason :: String.t | atom}
   ```
+  
+### Naming
+  
+* <a name="acronyms"></a>
+    Treat acronyms as words in names (XmlHttpRequest not XMLHTTPRequest), even if the acronym is the entire name (class Html not class HTML).
