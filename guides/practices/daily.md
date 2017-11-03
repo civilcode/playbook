@@ -20,13 +20,15 @@ A good check-in highlights three things:
 
 #### Example
 
+```
 in:
-- blocked: currently waiting on @john for review on _Display 3 most recent tweets_
+• blocked: currently waiting on @john for review on _Display 3 most recent tweets_
 https://github.com/montrealelixir/website/issues/13
-- continue: _Upgrade to Phoenix 1.3.x_ (chore, pair with @jane)
+• continue: _Upgrade to Phoenix 1.3.x_ (pair with @jane)
 https://github.com/montrealelixir/website/pull/15
-- up next: _Display the next/most recent meetup from Meetup.com_ (feature)
+• up next: _Display the next/most recent meetup from Meetup.com_
 https://github.com/montrealelixir/website/issues/12
+```
 
 #### Template
 
@@ -34,12 +36,11 @@ The example and template provide a consistent format across all check-ins, reduc
 cognitive overhead of scanning different formats for the client and other team members. Based on
 this example each line of the check-in has:
 
-1. single dash bullet point `-`
+1. single bullet (Option-8 on a mac)
 2. type of check-in line
 3. the title of the issue/pull-request
-4. the type of issue/pull-request (in parentheses)
-5. optionally the person you are pairing with
-6. the link to the issue/pull-request; starting on a new line
+4. optionally the person you are pairing with
+5. the link to the issue/pull-request; starting on a new line
 
 As the title of the issue/pull-request is the key component of a check-in line, these titles
 need to be descriptive.
@@ -47,7 +48,7 @@ need to be descriptive.
 #### Options
 
 Check-in's work as an excellent checklist for the day. If you wish to mark things completed in your
-checklist throughout the day feel free to replace the `-` with a ✔︎ for completed issues and ➽ for
+checklist throughout the day feel free to replace the `•` with a `✔︎` for completed issues and `➽` for
 work in progress.
 
 ## During the day
@@ -90,27 +91,29 @@ day. The format for a checkout is slightly different from our check-ins.
 1. Blockers; are you waiting for anyone (mention them) or stuck on something that is preventing you
    to move forward (as required)
 2. Completed; what issue was completed and what state is it in (waiting for review, merged)
-3. Started; what issue is in progress, _if there is no code pushed, a description is
-   required for the work done, ideally this would be documented in the GitHub issue_
-4. Work-in-progress; what WIP pull request are you picking up
+3. Work-in-progress; what issue is in progress, _a brief description is required for the work
+  done that day_
 
+#### Example
+
+```
 out:
-- blocked: currently waiting on @john for review on _Display 3 most recent tweets_
-https://github.com/montrealelixir/website/pull/13
-- completed: _Upgrade to Phoenix 1.3.x_ (waiting review, pair with @jane)
-https://github.com/montrealelixir/website/pull/15
-- started: _Display the next/most recent meetup from Meetup.com_; learned how the Meetup.com API works
-https://github.com/montrealelixir/website/issues/12
+• blocked: _Display 3 most recent tweets_; currently waiting on @john for review
+  https://github.com/montrealelixir/website/pull/13
+• completed: _Upgrade to Phoenix 1.3.x_; waiting review, paired with @jane
+  https://github.com/montrealelixir/website/pull/15
+• wip: _Display the next/most recent meetup from Meetup.com_; learned how the Meetup.com API works
+  https://github.com/montrealelixir/website/issues/12
+```
 
 #### Template
 
 Based on this example each line of the check-in has:
 
-1. single dash bullet point `-`
-2. type of check-out line
+1. single bullet (Option-8 on a mac)
+2. status
 3. the title of the issue/pull-request
-4. the status of issue/pull-request (in parentheses)
-5. optionally the person you are pairing with
-6. optionally description text, required for `started` issues unless described in the issue or
-   code has been pushed
+4. the status of issue/pull-request
+5. optionally the person you paired with
+6. optionally description text, required for `wip` issues
 7. the link to the issue/pull-request; starting on a new line
