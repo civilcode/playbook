@@ -1,5 +1,7 @@
 # Elixir Architecture Cheatsheet
 
+The architecture we use is heavily influenced by the [example application](https://github.com/VaughnVernon/IDDD_Samples) from Vaughn Vernon's [Implementing Domain-Driven Design](https://vaughnvernon.co/?page_id=168#iddd).
+
 ## The Basics
 
 * favor pure functions over impure
