@@ -28,5 +28,5 @@ end
 # Test docstrings
 
 * a `describe` starts with a verb in present progressive tense (`-ing`)
-* a `test` starts with a state/input, followed by the resuling behaviour.
+* a `test` starts with a state/input, followed by the resulting behaviour.
   
