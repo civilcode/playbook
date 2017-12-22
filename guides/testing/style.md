@@ -10,7 +10,7 @@
   lines or more. Otherwise keep all three parts/lines together (no line separation).
 
 ```elixir
-describe "sum" do
+describe "adding numbers" do
   test "negative number as 1st param throws exception" do
     # arrange, act, assert
   end
@@ -24,3 +24,9 @@ describe "sum" do
   end
 end
 ```
+
+# Test docstrings
+
+* a `describe` starts with a verb in present progressive tense (`-ing`)
+* a `test` starts with a state/input, followed by the resuling behaviour.
+  
