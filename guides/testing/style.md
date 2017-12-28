@@ -29,4 +29,6 @@ end
 
 * a `describe` starts with a verb in present progressive tense (`-ing`)
 * a `test` starts with a state/input, followed by the resulting behaviour.
+
+Some of this style guide is influenced by Roy Osherove's [Naming standards for unit tests](http://osherove.com/blog/2005/4/3/naming-standards-for-unit-tests.html).
   
