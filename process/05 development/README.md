@@ -22,7 +22,7 @@ We develop the application feature by feature using the [Feature-Driven Developm
 4. We [Design by Feature](./fdd/feature.md#design)
 5. We [Build by Feature](./fdd/feature.md#build)
 
-### Designing by Feature using GitHub
+### Develop by Feature using GitHub
 
 Use the following templates when working with GitHub Issues:
 
