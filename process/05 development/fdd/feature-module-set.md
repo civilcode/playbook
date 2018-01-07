@@ -1,4 +1,4 @@
-# Design Feature-Module and feature-set
+# Design Feature-Module and Feature-Set
 
 Depending on how complex the module is, these tasks can be split across the feature-module
 or feature-set level.

@@ -1,5 +1,10 @@
 # Onboarding
 
+**Draft**: Below is a list of notes from a brainstorming session. These need to be crafted
+into documentation.
+
+---
+
 ## Summary
 
 - why

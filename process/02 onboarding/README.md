@@ -1,12 +1,13 @@
-# Engagement
+# Onboarding
+
+**Draft**: Below is a list of notes from a brainstorming session. These need to be crafted
+into documentation.
 
 ## Resources
 
 - Master Services Agreement
 - Statement of Work
 - Letter of Engagement
-
-## Onboarding
 
 ## Summary
 

@@ -8,13 +8,13 @@
 4. [Iteration Zero](04%20iteration-zero/README.md)
 5. [Development](05%20development/README.md)
 
-## The Big Five
+## The Big Five Tools
 
 The key tools we use (linked to education trails):
 
-- [Object (Domain) Modeling](../education/trails/object-modeling.md)
-- [Domain Driven Design](../education/trails/domain-driven-design.md)
+- [Object Modeling](../education/trails/object-modeling.md)
+- [Domain-Driven Design](../education/trails/domain-driven-design.md)
 - [Specification by Example](../education/trails/specification-by-example.md)
 - [Feature-Driven Development](../education/trails/feature-driven-development.md)
 - [Story Mapping](../education/trails/story-mapping.md)
-- [Eventstorming](../education/trails/eventstorming.md)
+- [Event Storming](../education/trails/eventstorming.md)

@@ -1,6 +1,8 @@
 # Discovery
 
-A week long process to scope a project before developing a plan and recommending a budget. Effort: 1 developer block (it's probably more than this but we want to keep it affordable.)
+A week long process to scope a project before developing a plan and recommending a budget.
+
+Effort: 1-2 developer blocks (it's probably more than this but we want to keep it affordable).
 
 - Gather and review any related documents and review
   - manuals
