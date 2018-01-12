@@ -11,10 +11,11 @@ We now have _192.168.0.5_ reserved for `quebec.local`
 ## Setup Videotron router
 - Go to _Network > NAT > Port Forwarding_
 - Add Nat Port forwarding rules targetting the VPN server
--- UDP 500 to 192.168.0.5
--- UDP 4500 to 192.168.0.5
--- UDP 1701 to 192.168.0.5
-
+```
+ - UDP 500 to 192.168.0.5
+ - UDP 4500 to 192.168.0.5
+ - UDP 1701 to 192.168.0.5
+ ```
 
 ## Setup VPN server via MacOS Server
 Setup with a shared secret. That's the password that will be used to connect to the VPN
@@ -22,11 +23,11 @@ Setup with a shared secret. That's the password that will be used to connect to 
 - Choose "This Mac" to manage its services 
 - Go to VPN
 - Fill the VPN settings
-
-*VPN Host Name*: vpn.civilcode.io  
-*Shared Secret*: password used to connect to the VPN  
-*Client address*: limit number of connections to the VPN (10) 
-
+```
+VPN Host Name: vpn.civilcode.io  
+Shared Secret: password used to connect to the VPN  
+Client address: limit number of connections to the VPN (10) 
+```
 The Status should read "Reachable over the Internet at <ip>"
 
 ## Add User via MacOS Server
