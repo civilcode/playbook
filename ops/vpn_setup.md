@@ -51,5 +51,10 @@ In MacOS Server > VPN:
 -- *Server Address*: vpn.civilcode.io
 __ *Account Name*: enter the user account name that has been created on the server (eg: _johndoe_)
 
+# Troubleshoot
+- on the server: `tail -f /var/log/ppp/vpnd/log`
+- on the client: open the `Console` utility and filter on `vpn` or `vpnkit`
+- the VPN connection only works outside of the network, otherwise will drop UDP request (`Dropping TTL exceeded..`)
+
 
 Enjoy Canadian privacy! 
