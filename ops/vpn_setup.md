@@ -22,9 +22,10 @@ Setup with a shared secret. That's the password that will be used to connect to 
 - Choose "This Mac" to manage its services 
 - Go to VPN
 - Fill the VPN settings
-*VPN Host Name*: vpn.civilcode.io
-*Shared Secret*: password used to connect to the VPN
-*Client address*: limit number of connections to the VPN (10)
+
+*VPN Host Name*: vpn.civilcode.io  
+*Shared Secret*: password used to connect to the VPN  
+*Client address*: limit number of connections to the VPN (10) 
 
 The Status should read "Reachable over the Internet at <ip>"
 
