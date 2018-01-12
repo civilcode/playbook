@@ -42,6 +42,7 @@ In MacOS Server > VPN:
 
 ## Setup Client
 ### Via the config file
+The file can be found in 1password.
 - Save and click on the configuration file
 - Save the profile
 - Enter your credentials set at on the VPN server (eg _johndoe_)
