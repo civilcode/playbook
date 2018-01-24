@@ -7,6 +7,10 @@ Copy the following into GitHub issue:
 
 ---
 
+## Statement of Purpose
+
+{what is the purpose of this module}
+
 ## Tasks
 
 - [ ] Obtain any related documents
@@ -16,10 +20,6 @@ Copy the following into GitHub issue:
 - [ ] Model the state transitions
 - [ ] Determine business rules
 - [ ] Identify UI components (mockup with [Balsamiq Mockups](https://balsamiq.com/products/mockups/)
-
-## Statement of Purpose
-
-{what is the purpose of this module}
 
 ## Feature List
 
