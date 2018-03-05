@@ -29,7 +29,7 @@ Install shell commands from the menu: `Atom > Install Shell Commands`.
 Use this script to install all of the required packages:
 
 ```
-apm install Sublime-Style-Column-Selection atom-elixir language-elixir
+apm install Sublime-Style-Column-Selection atom-elixir language-elixir atom-elixir-formatter
 ```
 
 ### Settings
