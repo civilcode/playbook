@@ -1,6 +1,6 @@
 # Test Factories
 
-## State Transitions
+## Life cycle or operational states
 
 State is encapsulated by a function:
 
