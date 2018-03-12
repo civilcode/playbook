@@ -4,7 +4,7 @@
 
 Determining the current state is done via a predicate:
 
-``elixir
+```elixir
 
 # good
 
