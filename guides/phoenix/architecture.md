@@ -116,9 +116,11 @@ end
 
 ## Query modules
 
-* the "ready" side
+* an entry point into the application
+* the "read" side
 * calls to "scopes" on `Domain` modules and `Repo`
 * called by `GET` requests in controllers or the equivalent in GraphQL
+* query modules don't call other query modules
 
 **Example**
 
