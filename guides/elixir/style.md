@@ -6,6 +6,7 @@
 * [The Guide](#the-guide)
   * [Source Code Layout](#source-code-layout)
   * [Syntax](#syntax)  
+  * [Typespec](#typespecs)    
 
 ## Introduction
 
@@ -141,18 +142,20 @@ Alignment of parameters is not addressed in the Community Guide.
   %{my_struct | bar: "foo"}
   ```
 
-### Typespecs
+### Naming
 
+* <a name="acronyms"></a>
+    Treat acronyms as words in names (XmlHttpRequest not XMLHTTPRequest), even if the acronym is the entire name (class Html not class HTML).
+    <sup>[[link](#acronyms)]</sup>
+
+## Typespecs
+
+* <a name="typespecs-required"></a>
+  Add typespecs for all public functions.
 * If the spec does not fit on one line, indent using two spaces and place the `::` separator at the end of the line:
 
   ```elixir
   @spec calculate_payouts(shipment_id :: number) ::
     {:ok, PayoutWithALongNameToShowHowToSplitTheLine.t} |
     {:error, reason :: String.t | atom}
-  ```
-
-### Naming
-
-* <a name="acronyms"></a>
-    Treat acronyms as words in names (XmlHttpRequest not XMLHTTPRequest), even if the acronym is the entire name (class Html not class HTML).
-    <sup>[[link](#acronyms)]</sup>
+  ```    
