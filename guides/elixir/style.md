@@ -102,6 +102,44 @@ Alignment of parameters is not addressed in the Community Guide.
   NOTE: this is a deviation from the [community guide](https://github.com/christopheradams/elixir_style_guide#with-else
 ). The `do` is aligned with the other keywords. This makes it easier to see the body of the `do` block as there maybe multiple statements in the `with` block.
 
+* <a name="pipeline"></a>
+  Do not visually "break" the pipeline; i.e. when piping into function that is formatted across
+  multiple lines, extract that into a single line function.
+
+  ```elixir
+  # not preferred
+  foo
+  |> Enum.map(fn(%{bar: bar, qux: qux}) ->
+        upcased = String.upcase(bar)
+        {:ok, upcased, qux}
+    end)
+  |> baz
+
+  # preferred
+  foo
+  |> Enum.map(&extracted_function/1)
+  |> baz
+
+  def extracted_function(%{bar: bar, qux: qux}) do
+    upcased = String.upcase(bar)
+    {:ok, upcased, qux}
+  end
+  ```
+
+* <a name="map-put-struct"></a>
+  Do not use `Map.put/3` with a struct as it is possible to put a new key in the struct that
+  that does not exist. Use `Map.replace!/3` instead or the merge syntax.
+
+    ```elixir
+  # not preferred
+  Map.put(my_struct, :bar, "foo")
+
+  # preferred
+  Map.replace!(my_struct, :bar, "foo")
+
+  # ideal
+  %{my_struct | bar: "foo"}
+  ```
 
 ### Typespecs
 
@@ -109,12 +147,12 @@ Alignment of parameters is not addressed in the Community Guide.
 
   ```elixir
   @spec calculate_payouts(shipment_id :: number) ::
-    {:ok, PayoutWithALongNameToShowHowToSplitTheLine.t} | 
+    {:ok, PayoutWithALongNameToShowHowToSplitTheLine.t} |
     {:error, reason :: String.t | atom}
   ```
-  
+
 ### Naming
-  
+
 * <a name="acronyms"></a>
     Treat acronyms as words in names (XmlHttpRequest not XMLHTTPRequest), even if the acronym is the entire name (class Html not class HTML).
     <sup>[[link](#acronyms)]</sup>
