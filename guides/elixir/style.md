@@ -84,25 +84,6 @@ Alignment of parameters is not addressed in the Community Guide.
 
 ### Syntax
 
-* <a name="with-else"></a>
-  If the `with` expression has a `do` block with more than one line, or has an
-  `else` option, use multiline syntax.
-  <sup>[[link](#with-else)]</sup>
-
-  ```elixir
-  with {:ok, foo} <- fetch(opts, :foo),
-       {:ok, bar} <- fetch(opts, :bar)
-  do
-    {:ok, foo, bar}
-  else
-    :error ->
-      {:error, :bad_arg}
-  end
-  ```
-
-  NOTE: this is a deviation from the [community guide](https://github.com/christopheradams/elixir_style_guide#with-else
-). The `do` is aligned with the other keywords. This makes it easier to see the body of the `do` block as there maybe multiple statements in the `with` block.
-
 * <a name="pipeline"></a>
   Do not visually "break" the pipeline; i.e. when piping into function that is formatted across
   multiple lines, extract that into a single line function.
@@ -124,6 +105,21 @@ Alignment of parameters is not addressed in the Community Guide.
   def extracted_function(%{bar: bar, qux: qux}) do
     upcased = String.upcase(bar)
     {:ok, upcased, qux}
+  end
+  ```
+
+* <a name="with-else"></a>
+  The head of with with function should be single function calls.
+  <sup>[[link](#with-else)]</sup>
+
+  ```elixir
+  with {:ok, foo} <- fetch(opts, :foo),
+       {:ok, bar} <- fetch(opts, :bar)
+  do
+    {:ok, foo, bar}
+  else
+    :error ->
+      {:error, :bad_arg}
   end
   ```
 
@@ -152,10 +148,4 @@ Alignment of parameters is not addressed in the Community Guide.
 
 * <a name="typespecs-required"></a>
   Add typespecs for all public functions.
-* If the spec does not fit on one line, indent using two spaces and place the `::` separator at the end of the line:
-
-  ```elixir
-  @spec calculate_payouts(shipment_id :: number) ::
-    {:ok, PayoutWithALongNameToShowHowToSplitTheLine.t} |
-    {:error, reason :: String.t | atom}
   ```    
