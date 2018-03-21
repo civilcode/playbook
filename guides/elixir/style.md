@@ -87,6 +87,7 @@ Alignment of parameters is not addressed in the Community Guide.
 * <a name="pipeline"></a>
   Do not visually "break" the pipeline; i.e. when piping into function that is formatted across
   multiple lines, extract that into a single line function.
+  <sup>[[link](#pipeline)]</sup>
 
   ```elixir
   # not preferred
@@ -126,6 +127,7 @@ Alignment of parameters is not addressed in the Community Guide.
 * <a name="map-put-struct"></a>
   Do not use `Map.put/3` with a struct as it is possible to put a new key in the struct that
   that does not exist. Use `Map.replace!/3` instead or the merge syntax.
+  <sup>[[link](#map-put-struct)]</sup>
 
     ```elixir
   # not preferred
@@ -148,4 +150,4 @@ Alignment of parameters is not addressed in the Community Guide.
 
 * <a name="typespecs-required"></a>
   Add typespecs for all public functions.
-  ```    
+  <sup>[[link](#typespecs-required)]</sup>
