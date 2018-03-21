@@ -80,7 +80,12 @@ Alignment of parameters is not addressed in the Community Guide.
     [2, 3, 4],
     &(rem(&1, 2) == 1)
   )     
-  ```  
+  ```
+
+* <a name="indentation"></a>
+  Indention kills readability. If the body of the function is indented more than three soft tabs
+  (i.e. 6 spaces), that is a smell that functions should be extracted, reducing the indention.
+  <sup>[[link](#indentation)]</sup>     
 
 ### Syntax
 
