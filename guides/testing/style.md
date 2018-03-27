@@ -21,6 +21,7 @@
   e.g. `product_in_stock`, `order_with_new_line_item`
 * The qualify names used in docstings are reflected in the variables names;
   e.g. "product in-stock" -> `product_in_stock`
+* Always assign the value of a factory function to a variable even if it is not being used (underscore will be required) to help communicate then intent.
 
 ## Example
 
