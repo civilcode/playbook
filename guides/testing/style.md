@@ -31,7 +31,7 @@ describe "adding a product to a new order" do
   test "product in-stock returns an order with a new line item", %{new_order: new_order} do
     product_in_stock = create(:product, count_on_hand: 10)
 
-    ok_result = Order.add_product(product_in_stock.id, qty = 3)
+    ok_result = Order.add_product(new_order, product_in_stock.id, qty = 3)
 
     assert {:ok, order_with_new_line_item} = ok_result
     assert Enum.find(order_with_new_line_item.line_items, &1.product_id == product_in_stock.id)
