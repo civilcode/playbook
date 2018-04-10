@@ -140,10 +140,53 @@ Alignment of parameters is not addressed in the Community Guide.
 
   # preferred
   Map.replace!(my_struct, :bar, "foo")
-
+ 
   # ideal
   %{my_struct | bar: "foo"}
   ```
+  
+* <a name="conditional-macros"></a>
+  When selecting a macro to implement a conditional statement, e.g. `if`, `case`, or `with`, it is easy to select a more complex macro than is required. We should always use the simpliest macro to express our intent.
+  <sup>[[link](#map-put-struct)]</sup>
+
+  ```elixir
+  # not preferred
+  case foo(bar) do
+    true -> baz()
+    _ -> nil
+  end
+
+  # preferred
+  if foo(bar) do
+    baz()
+  end
+
+  # not preferred
+  case foo(bar) do
+    true -> baz()
+    false -> qux()
+  end
+
+  # preferred
+  if foo(bar) do
+    baz()
+  else
+    qux()
+  end
+
+  # not preferred
+  with {:ok, bar} <- foo() do
+    baz()
+  else
+    _ -> qux()
+  end
+
+  # preferred
+  case foo() do
+    {:ok, bar} -> baz()
+    _ -> qux()
+  end
+  ```  
 
 ### Naming
 
