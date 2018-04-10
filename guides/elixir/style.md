@@ -147,7 +147,7 @@ Alignment of parameters is not addressed in the Community Guide.
   
 * <a name="conditional-macros"></a>
   When selecting a macro to implement a conditional statement, e.g. `if`, `case`, or `with`, it is easy to select a more complex macro than is required. We should always use the simpliest macro to express our intent.
-  <sup>[[link](#map-put-struct)]</sup>
+  <sup>[[link](#conditional-macros)]</sup>
 
   ```elixir
   # not preferred
