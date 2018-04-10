@@ -115,7 +115,7 @@ Alignment of parameters is not addressed in the Community Guide.
   ```
 
 * <a name="with-else"></a>
-  The head of with with function should be single function calls.
+  The head of the `with` macro should have single function calls.
   <sup>[[link](#with-else)]</sup>
 
   ```elixir
