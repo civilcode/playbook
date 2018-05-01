@@ -2,11 +2,11 @@
 
 ## Stages
 
-1. [Engagement](01-engagement/README.md)
-2. [Onboarding](02-onboarding/README.md)
-3. [Discovery](03-discovery/README.md)
-4. [Iteration Zero](04-iteration-zero/README.md)
-5. [Development](05-development/README.md)
+1. [Engagement](./01-engagement)
+2. [Onboarding](./02-onboarding)
+3. [Discovery](./03-discovery)
+4. [Iteration Zero](./04-iteration-zero)
+5. [Development](./05-development)
 
 ## The Big Five Tools
 
