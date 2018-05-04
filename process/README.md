@@ -16,5 +16,5 @@ The key tools we use (linked to education trails):
 - [Domain-Driven Design](../education/trails/domain-driven-design.md)
 - [Specification by Example](../education/trails/specification-by-example.md)
 - [Feature-Driven Development](../education/trails/feature-driven-development.md)
-- [Story Mapping](../education/trails/story-mapping.md)
-- [Event Storming](../education/trails/eventstorming.md)
+- [Story Mapping](../education/trails/story-mapping.md) (User-driven Discovery)
+- [Event Storming](../education/trails/eventstorming.md) (Business-driven Discovery)
