@@ -1,0 +1,94 @@
+[
+  {
+    "name": "deployment",
+    "color": "000000"
+  },
+  {
+    "name": "level:difficult",
+    "color": "c405ae"
+  },
+  {
+    "name": "level:easy",
+    "color": "13b2af"
+  },
+  {
+    "name": "level:intermediate",
+    "color": "f7a285"
+  },
+  {
+    "name": "mod:name",
+    "color": "fbca04"
+  },
+  {
+    "name": "p1:must-have",
+    "color": "006b75"
+  },
+  {
+    "name": "p2:should-have",
+    "color": "bfdadc"
+  },
+  {
+    "name": "p3:could-have",
+    "color": "bfdadc"
+  },
+  {
+    "name": "type:bug",
+    "color": "ee0701"
+  },
+  {
+    "name": "type:chore",
+    "color": "c5def5"
+  },
+  {
+    "name": "type:enhancement",
+    "color": "f7459e"
+  },
+  {
+    "name": "type:exception",
+    "color": "d93f0b"
+  },
+  {
+    "name": "type:module",
+    "color": "5319e7"
+  },
+  {
+    "name": "type:capability",
+    "color": "5319e7"
+  },
+  {
+    "name": "type:task",
+    "color": "5319e7"
+  },
+  {
+    "name": "type:question",
+    "color": "cc317c"
+  },
+  {
+    "name": "type:support",
+    "color": "ff8999"
+  },
+  {
+    "name": "wf:blocked",
+    "color": "b60205"
+  },
+  {
+    "name": "wf:in-progress",
+    "color": "c2e0c6"
+  },
+  {
+    "name": "wf:on-hold",
+    "color": "e99695"
+  },
+  {
+    "name": "wf:review",
+    "color": "128A0C"
+  },
+  {
+    "name": "wf:stalled",
+    "color": "b60205"
+  },
+  {
+    "name": "wf:waiting",
+    "color": "b70003"
+  }
+]
