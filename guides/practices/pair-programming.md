@@ -31,14 +31,14 @@ If you and your pair have negotiated a different setup, you're welcome to use it
 
 ### Shell commands
 
-Install shell commands from the menu: `Atom > Install Shell Commands`.
+Install shell commands from the menu: `Atom > Install Shell Integration`.
 
 ### Packages
 
 Use this script to install all of the required packages:
 
 ```
-apm install Sublime-Style-Column-Selection atom-elixir language-elixir atom-elixir-formatter
+apm install Sublime-Style-Column-Selection atom-elixir atom-elixir-formatter language-elixir
 ```
 
 ### Settings
