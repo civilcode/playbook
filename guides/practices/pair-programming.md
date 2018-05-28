@@ -93,3 +93,46 @@ The pairing station has a list of possible co-authors in the `.gitmessage` file.
 2. the branch has been checked-out
 3. the branch is rebased with master
 4. test suite is green
+
+### Etiquette
+
+Good etiquette translates into efficient pair programming.
+
+1. Agree on the physical environment beforehand
+2. When talking about code, always refer to line number and file name
+3. When disagreeing, talk in terms of benefits
+4. When feeling ill at ease, say so
+5. Bestow as many compliments as possible
+
+More details [here](https://blog.rapid7.com/2017/01/27/5-rules-of-pair-programming-etiquette/).
+
+### Ping pong process
+
+The process is simple:
+
+1. A writes a new test and sees that it fails.
+2. B implements the code needed to pass the test.
+3. B writes the next test and sees that it fails.
+4. A implements the code needed to pass the test.
+
+And so on. **Refactoring is done whenever the need arises by whoever is driving**.
+
+## Rules and hints
+
+- First, before either writing a test or implementing the code, a **clear shared understanding has to be established**. Otherwise, the watcher will have a hard time following the driver and disagreements may arise quickly.
+- If research is required at some point, don't hesitate to split and regroup at some point.
+- When writing code to make a test pass, the goal is to get something quick and dirty working. Then the pair can discuss and improve the code. If the driver had the keyboard for a while, the watcher can then take over and do some refactoring before writing a new test.
+- Be willing to be vulnerable, do not be afraid to ask for help. This triggers a discussion and the driver can then resume. It is a great way to learn.
+- While writing code to make the test pass, if the test needs some tweaking, it is up to the driver to fix it, not the person who wrote the test (the watcher).
+- The driver must continually talk, explaining the intent while typing. Otherwise, it is difficult for the watcher to follow the thought process of the driver.
+- The watcher should try to **limit interruptions** to prevent the driver loosing focus. The watcher should wait for a moment where an intervention is "a propos". The watcher is **not** a _navigator_ (concept from another pair programming process).
+- The watcher should not tell the driver what to do, unless the driver asks for it.
+- The driver regularly asks the watcher for feedback (errors? spelling mistakes? opinions?)
+- If the watcher wants to use the keyboard/mouse, it must first ask the driver.
+- The driver should not keep the keyboard for too long. Big refactoring can be split into smaller ones and each member in turn refactors portions of the code.
+- If the pair disagrees on design or implementation and cannot come up with an agreement, file an issue in the project and bring this up to the team at some point.
+- The code is shared by the development team, therefore use _we_ instead of _you_ or _I_ when referring to the code.
+- When pairing remotely, as a watcher, avoid distractions and stay in the same file as the driver, as if you were parigin in person.
+- Do not forget to take breaks.
+- Be proud of what you achieved as a pair. Take time to admire and feel good about the code.
+- Be mindful of your hygiene.
