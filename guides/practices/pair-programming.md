@@ -6,6 +6,14 @@
 
 -- [Wikipedia](https://en.wikipedia.org/wiki/Pair_programming)
 
+## Benefits
+
+- Two heads are better than one
+- More efficient
+- Fewer coding mistakes (on-going peer review)
+- Effective way to share knowledge and learn
+- Develop interpersonal skills
+
 ## Setup
 
 To make pair programming as efficient and as enjoyable it is important to have a
