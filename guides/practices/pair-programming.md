@@ -83,9 +83,9 @@ The pairing station has a list of possible co-authors in the `.gitmessage` file.
 
 ### New branch
 
-1. prepare the editor and terminal with the recommendation screen configuration
-2. fresh master has been pulled
-3. test suite is green
+1. Prepare the editor and terminal with the recommended screen configuration
+2. Fresh master has been pulled
+3. Test suite is green
 
 ### Existing branch
 
