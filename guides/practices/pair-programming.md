@@ -22,6 +22,7 @@ common set of tools with the same configurations:
 - [Atom](https://atom.io/); editor
 - [iTerm2](https://www.iterm2.com/); terminal
 - [SourceTree](https://www.sourcetreeapp.com/); Git GUI - optional
+- [Cloud9](https://aws.amazon.com/fr/cloud9/); pairing station in the cloud - remote only
 - [Zoom](https://zoom.us/); screen sharing - remote only
 
 If you and your pair have negotiated a different setup, you're welcome to use it.
@@ -65,9 +66,12 @@ gracefully.
 
 ## Remote pairing
 
-Remote pairing requires a certain amount of preparation. Before starting the pairing session,
-determine who will be the "host". This is the developer who will be sharing their screen.
-It is the host's responsibility to ensure the following before the guest comes online:
+Rmeote pairing is done using a cloud pairing station. We use Cloud9. A pairing instance
+must first be provisioned for the project. See [guide here](https://github.com/civilcode/cloud9-bootstrap).
+
+Both pair members access the Cloud9 instance using their Amazon IAM account. The pair use
+the tool they want for the audio (Zoom, slack, ...).
+
 
 ### New branch
 
