@@ -72,6 +72,14 @@ must first be provisioned for the project. See [guide here](https://github.com/c
 Both pair members access the Cloud9 instance using their Amazon IAM account. The pair use
 the tool they want for the audio (Zoom, slack, ...).
 
+## Git user
+
+For pulling and pushing to Github, we use our CivilCode pairing account (`civilcode-pairing`).
+The first time a repo is pulled through the `https` handle, git asks for the username and password.
+By default, the credentials are cached in OSX keychain.
+
+When committing code, the pair uses the [multiple co-authors](https://help.github.com/articles/creating-a-commit-with-multiple-authors/) feature of GitHub.
+The pairing station has a list of possible co-authors in the `.gitmessage` file.
 
 ### New branch
 
