@@ -18,70 +18,6 @@ deviate from the community standard.
 
 ### Source Code Layout
 
-Alignment of parameters is not addressed in the Community Guide.
-
-* <a name="align-parameters"></a>
-  Use the single indent style for aligning parameters when
-  conforming to line-length constraints.
-  <sup>[[link](#align-parameters)]</sup>
-
-  ```elixir  
-  # single line
-  Order.ship(order, params)
-
-  # multi-line
-  Order.ship(
-    order,
-    params
-  )
-  ```  
-
-* <a name="align-keywords"></a>
-  With keyword lists, these are aligned separately to other params. This style is mostly applicable for factory libraries.
-  <sup>[[link](#align-keywords)]</sup>
-
-  ```elixir
-  # single line
-  order = build(:order, customer: customer, seller: seller, quantity: 3)
-
-  # explanation only - do not use  
-  order = build(:order, [
-    customer_id: seller_id,
-    quantity: 3
-  ])
-
-  # multi-line - preferred  
-  order = build(:order,
-    customer_id: seller_id,
-    quantity: 3
-  )  
-  ```
-
-* <a name="align-anon-functions"></a>
-  The body of anonymous function starts on a new line. Single
-  line anonymous functions as a parameter are allowed only
-  with the capture syntax.
-  <sup>[[link](#align-anon-functions)]</sup>  
-
-  ```elixir
-  # not preferred
-  Enum.find_index([2, 3, 4], fn(x) -> rem(x, 2) == 1 end)  
-
-  # preferred
-  Enum.find_index([2, 3, 4], fn(x) ->
-    rem(x, 2) == 1
-  end)
-
-  # preferred
-  Enum.find_index([2, 3, 4], &(rem(&1, 2) == 1))
-
-  # multi-line - preferred
-  Enum.find_index(
-    [2, 3, 4],
-    &(rem(&1, 2) == 1)
-  )     
-  ```
-
 * <a name="indentation"></a>
   Indention kills readability. If the body of the function is indented more than three soft tabs
   (i.e. 6 spaces), that is a smell that functions should be extracted, reducing the indention.
@@ -140,11 +76,11 @@ Alignment of parameters is not addressed in the Community Guide.
 
   # preferred
   Map.replace!(my_struct, :bar, "foo")
- 
+
   # ideal
   %{my_struct | bar: "foo"}
   ```
-  
+
 * <a name="conditional-macros"></a>
   When selecting a macro to implement a conditional statement, e.g. `if`, `case`, or `with`, it is easy to select a more complex macro than is required. We should always use the simpliest macro to express our intent.
   <sup>[[link](#conditional-macros)]</sup>
