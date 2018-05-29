@@ -56,16 +56,23 @@ and generate unpredictable and unrepeatable outputs.
 
 ---
 
+# Risks in software development
+
+---
+
 ![inline](./triangle.png)
 
 ---
 
-# Risks in software development
+# Top 3 Risks in software development
 
-- Going over budget
-- Late delivery
-- Not meeting requirements/expectations
-  - features, performance, reliability, durability
+1. Going over budget
+2. Late delivery
+3. Not meeting requirements/expectations
+  - features
+  - performance
+  - reliability
+  - durability
 
 ---
 
