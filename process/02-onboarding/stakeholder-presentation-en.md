@@ -84,6 +84,13 @@ and generate unpredictable and unrepeatable outputs.
 - Executable specifications
 - Open source
 
+^
+Dedicated Product Owner: helps meeting the requirements
+Iterative Approach: helps meeting the requirements, on-time and within budget
+Feedback early and often: helps meeting the requirements within budget
+Executable specifications: helps meeting the requirements and save time when adding new features
+Open Source: helps with budget
+
 ---
 
 # Minimum Viable Product
