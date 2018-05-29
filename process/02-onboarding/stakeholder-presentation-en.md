@@ -1,8 +1,8 @@
 build-lists: true
+autoscale: true
+theme: Sketchnote
 
 # Stakeholder Onboarding
-
-^ Use "Sketchnote" theme
 
 ---
 
@@ -14,11 +14,40 @@ build-lists: true
 
 ---
 
+# History
+
+- In the past, software development teams were using the Waterfall methodology
+- In the 90s, Agile movement introduced lightweight methodologies
+
+---
+
+![inline](./waterfall.png)
+
+---
+
+![inline](./agile.png)
+
+---
+
+# Waterfall methodology is wrong
+
+- Suited for well-planned processes (i.e. manufacturing)
+- Not suited for empirical process (i.e. new product development)
+
+---
+
+> The empirical model of process control provides and exercises control through
+frequent inspection and adaptation for processes that are imperfectly defined
+and generate unpredictable and unrepeatable outputs.
+-- Wikipedia
+
+---
+
 > Software creation is an empirical activity
 
 ---
 
-# Empirical Process
+# Effects on Software Creation
 
 - Cannot define a 100% accurate specification upfront
 - Cannot reliably estimate effort and cost
