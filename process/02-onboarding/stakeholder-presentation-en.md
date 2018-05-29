@@ -119,3 +119,14 @@ Open Source: helps with budget
 # Other practices we embrace
 
 Ubiquitous Language • Continuous Investment • Peer Reviews • Pair Programming • Event Storming • Domain Modeling • Discovery • Story Mapping • Specification by Examples
+
+---
+
+# Conclusion
+
+With agile practices:
+
+- You are in control of the requirements, budget and time
+- Early feedback produces higher quality
+- We minimize the risks
+- You can benefit early
