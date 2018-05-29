@@ -6,7 +6,8 @@
 * [The Guide](#the-guide)
   * [Source Code Layout](#source-code-layout)
   * [Syntax](#syntax)  
-  * [Typespec](#typespecs)    
+  * [Typespec](#typespecs)
+  * [Documentation](#documentation)    
 
 ## Introduction
 
@@ -135,3 +136,9 @@ deviate from the community standard.
 * <a name="typespecs-required"></a>
   Add typespecs for all public functions.
   <sup>[[link](#typespecs-required)]</sup>
+
+## Documentation
+
+- do not provide module-level documentation for modules suffixed with their archetype (e.g. `Service`, `Controller`, `Query`, `Repo`)
+- apply `@module false` to these modules.
+- [typespec](http://elixir-lang.org/getting-started/typespecs-and-behaviours.html#types-and-specs) is mandatory for public functions (except in controllers and views)
