@@ -1,3 +1,5 @@
+## Develop an object model
+
 * 25-word purpose statement
 * Identify the top 10 features
 * or High Value Scenarios (Scenarios for conducting business and determining results)
@@ -10,7 +12,7 @@
 
 **Tips**
 
-* Consider "Getting Started" from Object Modeling Wiki
+* Consider "Getting Started" from [Object Model](http://civilcode-object-models.s3.amazonaws.com/Strpat00000014.html) Guide
 * Consider "Line of Visibility" chart (LOVEM)
 * Consider reviewing existing object models from other books
 
