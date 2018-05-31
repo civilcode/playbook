@@ -1,4 +1,4 @@
-## Object Modeling
+# Object Modeling
 
 * Nicholas' introductory talk [Modeling on the Right Side of the Brain](http://blog.firsthand.ca/2014/04/modeling-on-right-side-of-brain.html)
 * Stephen. R. Palmer's Online Documentation ([Online](http://www.step-10.com/SoftwareDesign/ModellingInColour/index.html) | [PDF Format](https://www.dropbox.com/s/66spkldm40foh5l/Peter%20Coad%27s%20Modeling%20in%20Color.pdf?dl=0))
