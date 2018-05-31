@@ -6,12 +6,10 @@
 - Help focusing
 - Things don't fall through the crack
 
+## Responsibilities
 
-## Responsabilities
-
-The roles in a project and their related responsabilities follow.  Of course, the responsible for
+The roles in a project and their related responsibilities follow. Of course, the responsible for
 an activity can delegate to other team members.
-
 
 ### Project Manager
 
