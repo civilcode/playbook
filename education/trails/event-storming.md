@@ -1,4 +1,4 @@
-# Eventstorming
+# Event Storming
 
 > Event Storming is a form of organizational anthropology; it’s all about discussing the flow of events in your organization and modelling that flow in an easy to understand way. The knowledge gained from an Event Storming session will eventually feed into other modelling techniques to provide structure to the business flows that emerge, but the real value are the conversations involved. You can build a software system from the models, or simply use the knowledge gained from the conversations to better understand and refine the business processes themselves.
 
