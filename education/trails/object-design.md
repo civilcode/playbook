@@ -1,3 +1,7 @@
+# Object Design
+
+## Notes
+
 From "Java Modeling in Color with UML" pg 41:
 
 Where to put a method? Take a feature statement, `<action> the <result> <by|for|of|to> a <moment-interval|role|description|part, place, thing>`. Put the initiating method in the corresponding class.
