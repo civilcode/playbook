@@ -1,12 +1,12 @@
 # Build a Feature List
 
-| Type                           | Template                       | Example                       |
-| ---                            | ---                            | ---                           |
-| Major Feature Sets (aka Areas) | `<object> management`          | Car Service Management        |
-| Feature Sets (aka Activities)  | `<action><-ing> a(n) <object>` | Scheduling a Service          |
-| Feature (aka Tasks)            | `<action><result><object>`     | Schedule a service for a car  |
+| Type               | Template                       | Example                       | CivilCode | Story Mapping [1] |
+| ---                | ---                            | ---                           | ---       | ---               |
+| Major Feature Sets | `<object> management`          | Car Service Management        | Module    | Areas             |
+| Feature Sets       | `<action><-ing> a(n) <object>` | Scheduling a Service          | Ability   | Activities        |
+| Feature            | `<action><result><object>`     | Schedule a service for a car  | Task      | Tasks             |
 
-* Features are granular (max. less than 3-days, most take less)
+* Features are granular (max. than 3-days, most take less)
 * Full feature template: `<action> the <result> <by|for|of|to> a(n) <object>`
 
 For example **Car Service Management**:
@@ -35,7 +35,12 @@ For example **Car Service Management**:
 ## Extras
 
 Also include the following:
+
 * lists (e.g. List all pending services for the station)
 * reports (e.g. Report on average service total for the station)
 * chores (e.g. Version the services table)
 * constraints (e.g. Determine the customer's account is in good standing)
+
+## Footnotes
+
+1. Influences by [Thoughworks Blog Post](https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog)
