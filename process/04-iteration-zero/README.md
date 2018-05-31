@@ -1,3 +1,3 @@
 # Iteration Zero
 
-**Draft**: currently under development.
+* [Kick-off](./kickoff)
