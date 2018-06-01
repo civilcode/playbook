@@ -90,6 +90,8 @@ Both pair members access the Cloud9 instance using their Amazon IAM account. The
 - [Cloud9](https://aws.amazon.com/fr/cloud9/); pairing station in the cloud
 - [Zoom](https://zoom.us/); screen sharing and/or audio
 
+It is responsibility of one of the pair members to prepare the cloud pairing station for the pairing session.
+
 <hr>
 
 ## Getting Started
