@@ -11,10 +11,15 @@ professional development.
 There are a number of possibilities for company development:
 
 - Projects
-  - [playbook](https://github.com/civilcode/playbook)
   - [laptop](https://github.com/civilcode/laptop)
   - [dotfiles](https://github.com/civilcode/dotfiles)
+  - [cloud9-bootstrap](https://github.com/civilcode/cloud9-bootstrap])  
+- Documentation
+  - [playbook](https://github.com/civilcode/playbook)  
+  - [employee-handbook](https://github.com/civilcode/employee-handbook)  
+- Website
   - [website](https://github.com/civilcode/civilcode.github.io)
+  - [labs](https://labs.civilcode.io/)  
   - [blog](https://blog.civilcode.io/)
 - Social Media
   - [Twitter](https://twitter.com/)
@@ -27,6 +32,9 @@ There are a number of possibilities for company development:
 - Other
   - [development chores](https://3.basecamp.com/3260598/buckets/6101912/todosets/843598756)
   - update [technology radar](https://3.basecamp.com/3260598/buckets/789159/todosets/113466313)
+- Maintenance
+  - upgrade MacOs
+  - upgrade Packages
 
 ## Professional Development
 
