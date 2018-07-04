@@ -31,6 +31,7 @@ an activity can delegate to other team members.
 ### Technical Lead
 
 - Review plan/design from peers
+- Monitor and evolve architecture and coding practices
 - Mentor/guide team members
 
 ### Developer
