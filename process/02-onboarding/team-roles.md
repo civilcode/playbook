@@ -15,6 +15,7 @@ an activity can delegate to other team members.
 
 - Communicate with client
 - Coordinate with Product Owner
+- Domain expert
 - Drive specification workshops
 - Manage backlog and triage
 - Deploy to staging
@@ -27,6 +28,7 @@ an activity can delegate to other team members.
 - Provide test data
 - Participate in specification workshops
 - Accept new abilities
+- Domain expert
 
 ### Technical Lead
 
