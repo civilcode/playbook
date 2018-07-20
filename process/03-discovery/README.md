@@ -29,21 +29,20 @@ Scheduled across two half-days, ideally Monday afternoon and Tuesday morning.
 - [ ] Pastries
 - [ ] Bottled Water
 
-## Discovery Document
+## Development Plan Document
 
 ### Contents
 
 - [ ] Scope
 - [ ] 25 word statement of the application's purpose (6W's)
-- [ ] Context Model
+- [ ] Context Diagram
 - [ ] Actor Table
-- [ ] Story Map
-- [ ] Domain Model
+- [ ] Concept Map
+- [ ] Story Map or Event Map
 - [ ] Release Plan (minimum of an MVP)
-- [ ] Schedule for "iteration zero"
 - [ ] Describe the type of app being built
 - [ ] Responsibilities for team members
-- [ ] Rough estimates
+- [ ] Preliminary budget by module (ranges)
 - [ ] List of outstanding questions
 
 
@@ -55,3 +54,11 @@ Scheduled across two half-days, ideally Monday afternoon and Tuesday morning.
 - [ ] Targeted Browsers
 
 ## How we estimate
+
+For the back-end development, we come up with a list features (module/abilities/tasks) and assign a weight to each task (small, medium, large, x-large) and we then assign a number of blocks per weight. We then have a total of blocks per module.
+
+We then add a 25% for the user interface. That pourcentage depends on the kind of application and the discussions that happened during the discovery session.
+
+We add around 5 blocks for setting up the IT infrastructure.
+
+Finally, we add around 15% for project management.
