@@ -1,9 +1,9 @@
 # Engagement
 
-## Checkpoints
+## States
 
-* [ ] [qualifying phone call completed](qualifying-phone-call.md)
-* [ ] [introductory meeting completed](introductory-meeting.md)
+* prospect has been preliminary qualified over the phone
+* the prospect has been full qualified with an introduction meeting
 
 ## Qualifying Criteria
 

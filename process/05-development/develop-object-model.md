@@ -1,4 +1,4 @@
-# develop-object-model
+# Develop an Object Model
 
 ## Develop an object model
 

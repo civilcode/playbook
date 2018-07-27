@@ -1,4 +1,8 @@
-# Agenda
+# Kickoff
+
+Schedule on Tuesday's, never Monday's.
+
+### Agenda
 
 Purpose: provide an understanding of the development and feedback process and the tooling to support that
 

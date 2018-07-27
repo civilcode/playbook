@@ -13,6 +13,6 @@
 ## Resources
 
 * [BaseCamp Project Template](https://3.basecamp.com/3260598/templates/7872865)
-* [Product Owner Kick-off Meeting](kickoff/)
+* [Product Owner Kick-off Meeting](kickoff.md)
 * [Application Setup](https://github.com/civilcode/magasin/blob/master/guides/setup/README.md)
 
