@@ -1,2 +1,2 @@
-# trails
+# Trails
 

@@ -1,4 +1,4 @@
-# vpn\_setup
+# How to setup the VPN
 
 ## Router
 

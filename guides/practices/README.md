@@ -1,2 +1,2 @@
-# practices
+# Practices
 
