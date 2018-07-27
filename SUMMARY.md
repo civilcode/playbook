@@ -31,7 +31,7 @@
   * [Development](process/05-development/README.md)
     * [Build a Feature List](process/05-development/feature-list.md)
     * [develop-object-model](process/05-development/develop-object-model.md)
-* [guides](guides/README.md)
+* [Guides](guides/README.md)
   * [ops](guides/ops/README.md)
     * [vpn\_setup](guides/ops/vpn_setup.md)
     * [Developer Setup Guide](guides/ops/developer_setup.md)
