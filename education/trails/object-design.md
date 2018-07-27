@@ -12,3 +12,4 @@ Here we want to "calculate the anticipated total of an RFQ." So we put the initi
 * [Tell, Don't Ask](https://pragprog.com/articles/tell-dont-ask)
 * Commands down the stack, notifications up the stack
 * Event-based Programming
+

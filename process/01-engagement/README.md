@@ -2,8 +2,8 @@
 
 ## Checkpoints
 
-- [ ] [qualifying phone call completed](./qualifying-phone-call.md)
-- [ ] [introductory meeting completed](./introductory-meeting.md)
+* [ ] [qualifying phone call completed](qualifying-phone-call.md)
+* [ ] [introductory meeting completed](introductory-meeting.md)
 
 ## Qualifying Criteria
 
@@ -18,3 +18,4 @@ The application cannot:
 1. be solved by a CRUD Application
 2. be a content management application
 3. be implemented using with off-the-shelf software
+

@@ -10,4 +10,5 @@
 
 ## Other Resources
 
-- [Nicholas' Cheatsheet](https://www.evernote.com/l/AAHqFu6VlOlI4omBCajU60pRkjXvBmMK3qs)
+* [Nicholas' Cheatsheet](https://www.evernote.com/l/AAHqFu6VlOlI4omBCajU60pRkjXvBmMK3qs)
+
