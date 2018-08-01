@@ -13,7 +13,7 @@
   * examples are owner, customer
 * the "catalog-entry like description" archetype; blue
   * a collection of values that apply again and again
-  * example vehicle (thing) vs. vehicle (description)
+  * example "vehicle" with a serial number (thing) vs. "vehicle description" with a model number (description)
 * the "party, place or thing" archetype (PPT); green
   * someone or something that plays a role
   * examples are organization, location, product
