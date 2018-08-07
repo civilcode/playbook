@@ -8,7 +8,7 @@
   * [Onboarding](process/02-onboarding/README.md)
     * [Roles and responsibilities](process/02-onboarding/team-roles.md)
     * [Product Owner Role](process/02-onboarding/product-owner.md)
-  * [Discovery](process/03-discovery.md)
+  * [Discovery](process/03-discovery/README.md)
   * [Iteration Zero](process/04-iteration-zero/README.md)
     * [Kickoff](process/04-iteration-zero/kickoff.md)
   * [Development](process/05-development/README.md)
@@ -36,4 +36,3 @@
     * [Specification by Example](education/trails/specification-by-example.md)
     * [Story Mapping](education/trails/storymapping.md)
     * [Testing](education/trails/testing.md)
-
