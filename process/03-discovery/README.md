@@ -15,7 +15,7 @@ Effort: 1-2 developer blocks \(it's probably more than this but we want to keep 
 
 ## Discovery Session
 
-Scheduled across two half-days, ideally Monday afternoon and Tuesday morning.
+Scheduled across two half-days, ideally Tuesday morning and a Wednesday morning. This allows the Monday for preparation.
 
 ### Before
 
