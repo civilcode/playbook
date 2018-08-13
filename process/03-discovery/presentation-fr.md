@@ -146,6 +146,34 @@ Activité
 
 * e.g. _En utilisant Facebook, je peux garder contact avec ma famille pendant mon séjour à l'étranger._
 
+
+
+## Identifier la carte d'événements
+
+## Qu'est-ce qu'une carte d'événements
+
+Une méthodologie de brainstorming pour identifier les événements clés dans votre domaine d'affaire
+
+## D'où provient un événement
+
+* une commande/action (bleu) effectuée par un acteur (jaune)
+* un système externe (rose)
+* le temps qui passe (orange avec horloge ou calendrier)
+* conséquence d'un règle d'affaire (violet)
+
+## Exemple
+
+
+## Identifier la carte d'événements
+
+Activité
+
+* Identifier un événement "final" en lien avec un objectif d'un acteur
+* Identifier les événements précurseurs
+* Identifier les commandes et règles
+
+
+
 ## Identifier les chronologies des acteurs
 
 ## Qu'est-ce que la chronologie d'un acteur?
