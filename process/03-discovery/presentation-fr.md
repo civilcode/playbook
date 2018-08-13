@@ -163,6 +163,8 @@ Une méthodologie de brainstorming pour identifier les événements clés dans v
 
 ## Exemple
 
+![](https://github.com/civilcode/playbook/blob/add-event-storm-to-fr-presentation/process/03-discovery/assets/event-storm-example-fr.jpg?raw=true)
+
 
 ## Identifier la carte d'événements
 
