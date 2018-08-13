@@ -1,51 +1,51 @@
-# presentation-fr
-
 build-lists: true
+theme: Sketchnote
 
-## Séance de découverte
+# Séance d'exploration
 
-^ Use "Sketchnote" theme
+---
 
-## Agenda
+# Agenda
 
 * Introduction
 * Établir les objectifs
 * Identifier les acteurs
+* Identifier la carte des événements
 * Identifier la chronologie et les actions
 * Définir le produit minimum viable \(PMV\)
 * Prochaines étapes
 
 ^ Timeline == Story Map
 
-## Introduction
+---
 
-## Pourquoi une séance de découverte?
+# Introduction
 
-* Développer une compréhension commune \(quoi, qui, pourquoi\)
-* Établir l'étendue du projet et les objectifs
+---
+
+# Pourquoi une séance de découverte?
+
+* Développer une compréhension commune \(qui, quoi, pourquoi\)
+* Établir la portée du projet et les objectifs
 * Définir un produit minimum viable \(PMV\)
-* Former l'équipe de réalisation
+* Monter l'équipe
 * Réduire les risques et maximiser les chances de succès
 
-^
-
-* explain why
+^ explain why
   * shared understanding of the goals \(what, who, why\) and scope
   * ensure the application built meets business and user goals
   * define the MVP
 
-^
-
-* explain story mapping
+^ explain story mapping
   * actors \(who\)
   * timeline of tasks
   * release mapping \(MVP\)
 
-^
+^ show example
 
-* show example
+---
 
-## Sans une séance de découverte
+# Sans une séance de découverte
 
 3 mois plus tard...
 
@@ -54,61 +54,76 @@ build-lists: true
 * _"Pourquoi nous sommes-nous embarqué la dedans?"_
 * _"Quand est-ce que ça va finir?"_
 
-## Attentes durant la séance
+---
+
+# Attentes durant la séance
 
 * Viser la largeur, et non la profondeur \(ratisser large\)
 * Ne pas viser pour la perfection
 * Le plus important:
 
-  une compréhension commune suite à nos discussions
+  une compréhension commune de ce qui doit être réalisé et de quelle façon
 
-## Établir les objectifs
+---
 
-## Questions à répondre
+# Établir les objectifs
 
-* Quel produit allons-nous bâtir?
-* Pour qui bâtissons-nous ce produit?
-* Pourquoi bâtissons-nous ce produit?
+---
 
-![](https://github.com/civilcode/playbook/tree/821d56b5e92a324c0a7cacb4655cffe44c49da65/process/03-discovery/goals.jpg)
+# Questions à répondre
 
-## Quel produit allons-nous bâtir?
+* Pour qui bâtissons-nous un produit ?
+* Quel produit allons-nous bâtir ?
+* Pourquoi le bâtissons-nous ?
 
-* Établir l'étendue à haut-niveau du produit
+---
+
+![](assets/goals.jpg)
+
+
+---
+
+# Pour qui bâtissons-nous ce produit?
+
+* Établir les clients et les partenaires de ce produit
+* Activité
+  * noter le plus d'exemples possibles de clients/partenaires
+
+^ partage des profits?
+combien de clients, partenaires?
+
+---
+
+# Quel produit allons-nous bâtir?
+
+* Établir la portée à haut-niveau du produit
 * Activité
   * noter le plus de mots possible qui décrivent le produit \(un par Post-It\)
   * imaginer la boîte du produit: quels mots verrions-nous dessus?
 
-^
+^ what is the music being sold?
+we need a description?
+format, price point, bundles?
+selling rights? or selling songs?
+combien de pièces musicales?
 
-* what is the music being sold?
-* we need a description?
-* format, price point, bundles?
-* selling rights? or selling songs?
-* combien de pièces musicales?
+---
 
-## Pour qui bâtissons-nous ce produit?
-
-* Établir les clients et les intervenants de ce produit
-* Activité
-  * noter le plus d'exemples possibles de clients/intervenants
-
-^
-
-* partage des profits?
-* combien d'intervenants, partenaires?
-
-## Pourquoi bâtir ce produit?
+# Pourquoi bâtir ce produit?
 
 * Établir les objectifs d'affaire
 * Activité
   * noter le plus de mots possible qui complètent cette phrase:
 
-    Avec ce produit, Circonflex pourra _**\_\_**_
+    Avec ce produit, _MaCompagnie_ pourra _**\_\_**_
 
-## Identifier les objectifs des acteurs
+---
 
-## Qu'est-ce qu'un acteur?
+# Identifier les objectifs des acteurs
+
+---
+
+# Qu'est-ce qu'un acteur?
 
 * Une personne ou système qui interagit avec le produit
 * Exemples
@@ -118,55 +133,70 @@ build-lists: true
   * fournisseurs
   * système comptable
 
-## Pourquoi identifier les acteurs?
+---
 
-* S'arrurer que nous bâtissons le bon produit qui répond aux objectifs du client et des intervenants
-* S'arrurer que tous les clients et intervenants principaux sont identifiés
+# Pourquoi identifier les acteurs?
 
-## Qui sont les acteurs?
+* S'assurer que nous bâtissons le bon produit qui répond aux objectifs du client et des partenaires
+* S'assurer que tous les clients et partenaires principaux sont identifiés
 
-* Nous avons déjà une liste de clients et intervenants
+---
+
+# Qui sont les acteurs?
+
+* Nous avons déjà une liste de clients et partenaires
 * Activité
-  * identifier les acteurs
+  * identifier les acteurs parmi ceux-ci
   * identifier d'autres personnes/systèmes qui vont interagir avec le produit
 
-^
+^ Who will maintain the catalog
+Who will get sales report
+Who will get benefits from selling music on the system?
 
-* Who will maintain the catalog
-* Who will get sales report
-* Who will get benefits from selling music on MusicAccent?
+---
 
-## Quels sont leur objectifs?
+# Quels sont leur objectifs?
 
 Activité
 
 * Pour chaque acteur, compléter la phrase:
 
-  En utilisant `APP_NAME`, je peux **\_**
+  Grâce à `Produit X`, je peux **\_**
 
 * e.g. _En utilisant Facebook, je peux garder contact avec ma famille pendant mon séjour à l'étranger._
 
+---
 
 
-## Identifier la carte d'événements
+# Identifier la carte d'événements
 
-## Qu'est-ce qu'une carte d'événements
+---
 
-Une méthodologie de brainstorming pour identifier les événements clés dans votre domaine d'affaire
+# Qu'est-ce qu'une carte d'événements
 
-## D'où provient un événement
+Une méthodologie de brainstorming pour identifier les événements clés dans votre domaine d'affaire.
+
+
+---
+
+![](assets/event-storm-example-fr.jpg)
+
+---
+
+# D'où provient un événement
 
 * une commande/action (bleu) effectuée par un acteur (jaune)
 * un système externe (rose)
 * le temps qui passe (orange avec horloge ou calendrier)
-* conséquence d'un règle d'affaire (violet)
+* conséquence d'une règle d'affaire (violet)
 
-## Exemple
+---
 
-![](https://github.com/civilcode/playbook/blob/add-event-storm-to-fr-presentation/process/03-discovery/assets/event-storm-example-fr.jpg?raw=true)
+![](assets/event-storm-example-fr.jpg)
 
+---
 
-## Identifier la carte d'événements
+# Identifier la carte d'événements
 
 Activité
 
@@ -174,18 +204,24 @@ Activité
 * Identifier les événements précurseurs
 * Identifier les commandes et règles
 
+---
 
+# Identifier les chronologies des acteurs
 
-## Identifier les chronologies des acteurs
+---
 
-## Qu'est-ce que la chronologie d'un acteur?
+# Qu'est-ce que la chronologie d'un acteur?
 
 * la séquence des tâches et événements qui permet à un acteur d'atteindre son objectif
 * un outil pour bâtir le bon produit avec les fonctionalités adéquates pour l'atteinte des objectifs des acteurs
 
-![](https://github.com/civilcode/playbook/tree/821d56b5e92a324c0a7cacb4655cffe44c49da65/process/03-discovery/timeline.jpg)
+---
 
-## Identifier les chronologies des acteurs
+![](assets/timeline.jpg)
+
+---
+
+# Identifier les chronologies des acteurs
 
 Activité
 
@@ -198,15 +234,34 @@ Activité
 * "pop the why stack"
 * "give me an example"
 
-## Définir le produit minimum viable \(PMV\)
+---
 
-## Définition
+# Définir le produit minimum viable \(PMV\)
 
-> Un produit minimum viable possède les fonctionalités de base permettant d'être déployé, et rien de plus. Il est généralement offert à un sous-ensemble de clients, comme par exemple les adopteurs précoces plus indulgents, qui sont susceptibles de donner du feedback constructif et capables de voir la vision du produit à partir d'un prototype ou information marketing. -- Wikipedia
+---
+
+# Définition
+
+> Un produit minimum viable possède les fonctionalités de base permettant d'être déployé, et rien de plus. Il est généralement offert à un sous-ensemble de clients, comme par exemple les adopteurs précoces plus indulgents, qui sont susceptibles de donner du feedback constructif et capables de voir la vision du produit à partir d'un prototype ou information marketing.
+-- Wikipedia
 
 ^ "highest return on investment versus risk"
 
-## Définir le MVP
+---
+
+# Définir le MVP
+
+Activité
+
+* identifier les commandes à supporter en priorité
+
+---
+
+![fit](assets/mvp-example-fr.jpg)
+
+---
+
+# Définir le MVP
 
 Activité
 
@@ -215,11 +270,14 @@ Activité
 * dans les chronologies, sélectionner les tâches visées
 * à considérer: bien, mieux, meilleur
 
-![](https://github.com/civilcode/playbook/tree/821d56b5e92a324c0a7cacb4655cffe44c49da65/process/03-discovery/mvp.jpg)
+---
 
-## Prochaines étapes
+![](assets/mvp.jpg)
 
-* Questions durant les prochains jours
+---
+
+# Prochaines étapes
+
+* Être disponible pour nos questions durant les prochains jours
 * Rédaction du premier jet d'un plan de développement
 * Présentation du plan de développement
-
