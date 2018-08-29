@@ -38,7 +38,6 @@ Also include the following:
 
 * lists \(e.g. List all pending services for the station\)
 * reports \(e.g. Report on average service total for the station\)
-* chores \(e.g. Version the services table\)
 * constraints \(e.g. Determine the customer's account is in good standing\)
 
 ## Footnotes
