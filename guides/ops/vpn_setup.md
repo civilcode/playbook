@@ -63,6 +63,7 @@ The config file can be found in 1password in the Shared vault under _VPN.config\
 * Save the profile
 * Enter your credentials set at on the VPN server \(eg _johndoe_\)
 * Open Network Preferences, and connect to the VPN profile added
+* Under `Advanced...` options check "Send all traffic over VPN connection"
 
 #### Manually
 
