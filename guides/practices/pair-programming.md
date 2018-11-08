@@ -144,9 +144,10 @@ The overall flow is simple:
 7. Developer B makes the test pass writing only enough code to make it pass
 8. Pair discusses the next problem to solve
 9. Developer B refactors an existing test module (if applicable)
-10. Developer B writes a failing test
-11. Goto 2
-12. Continue until Developer A and Developer B both agree that there are no more tests for the unit they are currently working on
+10. Developer B makes a commit when the whole test suite is green (if applicable)
+11. Developer B writes a failing test
+12. Goto 2
+13. Continue until Developer A and Developer B both agree that there are no more tests for the unit they are currently working on
 
 Things to watch-out for to prevent breaking the loop:
 
