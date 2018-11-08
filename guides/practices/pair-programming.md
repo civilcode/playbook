@@ -22,13 +22,14 @@ Pairing is appropriate when:
 * Fixing a bug
 * Refactoring
 * Onboarding a new member
+* Live code review (one member reviews code implemented byt the other member)
 
 Pairing is not appropriate for:
 
 * Easy and simple implementation
 * Chores
 * Research/investigations
-* Code review
+* Code review of a PR that does not belong to the pair
 
 ## Local Pairing Setup
 
@@ -93,7 +94,9 @@ Before starting a new pairing session, one of the members should get the pairing
 
 For pulling and pushing to Github, we use our CivilCode pairing account \(`civilcode-pairing`\). The first time a repo is pulled through the `https` handle, git asks for the username and password. By default, the credentials are cached in OSX keychain.
 
-When committing code, the pair uses the [multiple co-authors](https://help.github.com/articles/creating-a-commit-with-multiple-authors/) feature of GitHub. The pairing station has a list of possible co-authors in the `.gitmessage` file.
+When committing code, the pair uses the [multiple co-authors](https://help.github.com/articles/creating-a-commit-with-multiple-authors/) feature of GitHub. The pairing station has a list of possible co-authors in the `~/.gitmessage` file.
+
+1. Update the ~/.gitmessage file (uncomment/comment co-author lines)
 
 ### New branch
 
@@ -124,21 +127,36 @@ More details [here](https://blog.rapid7.com/2017/01/27/5-rules-of-pair-programmi
 
 This technique is based on the [red/green/refactor agile pattern](https://sites.google.com/site/agilepatterns/home/red-green-refactor).
 
-The overall flow is simple:
-
-1. Developer A writes a failing test
-2. Developer B makes the test pass writing only enough code to make it pass
-3. Developer B now writes the next test
-4. Developer A writes only enough code to make that test pass
-5. Continue until Developer A and Developer B both agree that there are no more tests for the unit they are currently working on
-
-**Either developer can refactor the code only while all tests are passing.**
-
 The developer having the keyboard and mouse is considered the _driver_, while the other developer is the _watcher_.
 
-Aa significant part of the _watcher_ role might include continually reviewing the work of the driver, pointing out spelling and syntax errors at the right moment, and providing feeback when the _driver_ asks for it.
+A significant part of the _watcher_ role might include continually reviewing the work of the driver, pointing out spelling and syntax errors at the right moment, and providing feeback when the _driver_ asks for it.
 
 The watcher is **not** a _navigator_ \(concept from another pair programming technique, as described [here](https://www.sourceallies.com/2011/03/pair-programming-101/)\).
+
+The overall flow is simple:
+
+1. Pair discusses the next problem to solve
+2. Developer A becomes the driver
+3. Developer A refactors an existing test module (if applicable)
+4. Developer A writes a failing test
+5. Developer B becomes the driver
+6. Developer B refactors existing production code (if applicable)
+7. Developer B makes the test pass writing only enough code to make it pass
+8. Pair discusses the next problem to solve
+9. Developer B refactors an existing test module (if applicable)
+10. Developer B writes a failing test
+11. Goto 2
+12. Continue until Developer A and Developer B both agree that there are no more tests for the unit they are currently working on
+
+Things to watch-out for to prevent breaking the loop:
+
+- Watcher should not move the mouse, unless asking for permission to do so.
+- Watcher should not touch the keyboard, unless asking for permission to do so. It permitted, this is not considered a role switch.
+- While making a test pass, if the test code needs tweaking, it is up to the driver to do the changes (not the person who wrote the test, in this case the watcher).
+
+**The driver can refactor the code in which modifications are about to happen only when all tests are passing.**
+
+If the pair is performing long refactoring, the role switching can happen after each refactoring or group of small refactoring. The driver should watch for not keeping control for too long, otherwise the watcher may "loose interest".
 
 ### Guidelines
 
@@ -149,7 +167,7 @@ For the pair:
 
    When writing code to make a test pass, the goal is to get something quick and dirty working. Then the pair can discuss and improve the code. If the driver had the keyboard for a while, the watcher can then take over and do some refactoring before writing a new test.
 
-3. If the pair disagrees on design or implementation and cannot come up with an agreement, the technical lead or another team member should be brought in and a discussion shoudl happen.  If no-one is available, a solution that leaves options open should be adopted so progress can be made; the issue can then be discussed when the technical lead or another member becomes available.
+3. If the pair disagrees on design or implementation and cannot come up with an agreement, the technical lead or another team member should be brought in and a discussion should happen.  If no-one is available, a solution **that leaves options open**  should be adopted so progress can be made; the issue can then be discussed when the technical lead or another member becomes available.
 4. The code is shared by the development team, therefore use _we_ instead of _you_ or _I_ when referring to the code.
 5. Do not forget to take breaks.
 6. Be proud of what you achieved as a pair. Take time to admire and feel good about the code.
@@ -161,11 +179,10 @@ For the driver:
 2. The driver must communicate the intentions. Otherwise, it is difficult for the watcher to follow the thought process of the driver.
 3. The driver regularly asks the watcher for feedback \(errors? spelling mistakes? opinions?\)
 4. The driver should not keep the keyboard for too long. Big refactoring can be split into smaller ones and each member in turn refactors portions of the code.
-5. While writing code to make the test pass, if the test needs some tweaking, it is up to the driver to fix it, not the person who wrote the test \(the watcher\).
 
 For the watcher:
 
-1. The watcher should try to **limit interruptions** to prevent the driver loosing focus. The watcher should wait for a moment where an intervention is "a propos".
+1. The watcher should try to **limit interruptions** to prevent the driver loosing focus. The watcher should wait for a moment where an intervention is "à propos" and is absolutely required (i.e. the driver started something on a wrong path).
 2. The watcher should not tell the driver what to do, unless the driver asks for it.
 3. If the watcher wants to use the keyboard/mouse, it must first ask the driver.
 4. When pairing remotely, as a watcher, avoid distractions and stay in the same file as the driver, as if you were pairing in person.
