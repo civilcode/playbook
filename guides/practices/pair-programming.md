@@ -22,7 +22,7 @@ Pairing is appropriate when:
 * Fixing a bug
 * Refactoring
 * Onboarding a new member
-* Live code review (one member reviews code implemented byt the other member)
+* Live code review (one member reviews code implemented but the other member)
 
 Pairing is not appropriate for:
 
@@ -94,7 +94,7 @@ Before starting a new pairing session, one of the members should get the pairing
 
 For pulling and pushing to Github, we use our CivilCode pairing account \(`civilcode-pairing`\). The first time a repo is pulled through the `https` handle, git asks for the username and password. By default, the credentials are cached in OSX keychain.
 
-When committing code, the pair uses the [multiple co-authors](https://help.github.com/articles/creating-a-commit-with-multiple-authors/) feature of GitHub. The pairing station has a list of possible co-authors in the `~/.gitmessage` file.
+When committing code, the pair uses the [multiple co-authors](https://help.github.com/articles/creating-a-commit-with-multiple-authors/) feature of GitHub. The dotfiles have a list of possible co-authors in the `~/.gitmessage` file.
 
 1. Update the ~/.gitmessage file (uncomment/comment co-author lines)
 
@@ -129,7 +129,7 @@ This technique is based on the [red/green/refactor agile pattern](https://sites.
 
 The developer having the keyboard and mouse is considered the _driver_, while the other developer is the _watcher_.
 
-A significant part of the _watcher_ role might include continually reviewing the work of the driver, pointing out spelling and syntax errors at the right moment, and providing feeback when the _driver_ asks for it.
+A significant part of the _watcher_ role includes continually reviewing the work of the driver, pointing out spelling and syntax errors at the right moment, and providing feeback when the _driver_ asks for it.
 
 The watcher is **not** a _navigator_ \(concept from another pair programming technique, as described [here](https://www.sourceallies.com/2011/03/pair-programming-101/)\).
 
@@ -151,7 +151,7 @@ The overall flow is simple:
 Things to watch-out for to prevent breaking the loop:
 
 - Watcher should not move the mouse, unless asking for permission to do so.
-- Watcher should not touch the keyboard, unless asking for permission to do so. It permitted, this is not considered a role switch.
+- Watcher should not touch the keyboard, unless asking for permission to do so. If permitted, this is not considered a role switch.
 - While making a test pass, if the test code needs tweaking, it is up to the driver to do the changes (not the person who wrote the test, in this case the watcher).
 
 **The driver can refactor the code in which modifications are about to happen only when all tests are passing.**
