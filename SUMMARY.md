@@ -36,3 +36,4 @@
     * [Specification by Example](education/trails/specification-by-example.md)
     * [Story Mapping](education/trails/storymapping.md)
     * [Testing](education/trails/testing.md)
+    * [Type Classes](education/trails/type-classes.md)
