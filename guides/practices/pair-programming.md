@@ -140,11 +140,11 @@ The overall flow is simple:
 3. Developer A refactors an existing test module (if applicable)
 4. Developer A writes a failing test
 5. Developer B becomes the driver
-6. Developer B refactors existing production code (if applicable)
+6. Developer B refactors existing production code (if applicable) - not the tests!
 7. Developer B makes the test pass writing only enough code to make it pass
-8. Pair discusses the next problem to solve
-9. Developer B refactors an existing test module (if applicable)
-10. Developer B makes a commit when the whole test suite is green (if applicable)
+8. Developer B makes a commit (if it makes senses - highly suggested)
+9. Pair discusses the next problem to solve
+10. Developer B refactors the previous test or other tests (if applicable)
 11. Developer B writes a failing test
 12. Goto 2
 13. Continue until Developer A and Developer B both agree that there are no more tests for the unit they are currently working on
