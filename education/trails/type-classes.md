@@ -7,5 +7,5 @@ are heavily influenced by ML style functional programming languages.
 Type Classes enable Domain-Driven Design.
 
 * Watch: [Domain Modeling Made Functional](https://fsharpforfunandprofit.com/ddd/)
-* Short Read: [The "Designing with types"  series](https://fsharpforfunandprofit.com/series/designing-with-types.html)_
+* Short Read: [The "Designing with types"  series](https://fsharpforfunandprofit.com/series/designing-with-types.html)
 * Long Read: [Domain Modeling Made Functional](https://fsharpforfunandprofit.com/books/#domain-modeling-made-functional-ebook-and-paper)
