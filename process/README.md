@@ -17,7 +17,4 @@ The key practices we use \(linked to education trails\):
 * [Feature-Driven Development](../education/trails/feature-driven-development.md)
 * [Object Modeling](../education/trails/object-modeling.md)
 * [Specification by Example](../education/trails/specification-by-example.md)
-* [Story Mapping](https://github.com/civilcode/playbook/tree/821d56b5e92a324c0a7cacb4655cffe44c49da65/education/trails/story-mapping.md) \(User-driven Discovery\)
-
-
-
+* [Story Mapping](../education/trails/story-mapping.md) \(User-driven Discovery\)
