@@ -39,7 +39,7 @@ There are a number of possibilities for company development:
 Professional development focuses on the key skills that a developer needs to be a productive member of the team. These skills include, but not limited to:
 
 * [Event Storming](https://github.com/civilcode/playbook/tree/821d56b5e92a324c0a7cacb4655cffe44c49da65/education/trails/eventstorming.md)
-* [Story Mapping](../../education/trails/storymapping.md)
+* [Story Mapping](../../education/trails/story-mapping.md)
 * [Domain-driven Development](../../education/trails/domain-driven-design.md)
 * [Feature-driven Development](../../education/trails/feature-driven-development.md)
 * [Object Modeling](../../education/trails/object-modeling.md)
@@ -48,4 +48,3 @@ Professional development focuses on the key skills that a developer needs to be 
 * Elixir and OTP
 
 The [Trails](https://github.com/civilcode/playbook/tree/821d56b5e92a324c0a7cacb4655cffe44c49da65/education/trails/README.md) section is a good place to get started with these topics.
-

@@ -10,14 +10,13 @@
 
 ## Practices
 
-The key practices we use \(linked to education trails\):
+The key practices we use (linked to education trails):
 
 * [Domain-Driven Design](../education/trails/domain-driven-design.md)
-* [Event Storming](../education/trails/event-storming.md) \(Business-driven Discovery\)
+* [Event Storming](../education/trails/event-storming.md) (Business-driven Discovery)
 * [Feature-Driven Development](../education/trails/feature-driven-development.md)
 * [Object Modeling](../education/trails/object-modeling.md)
+* [Pair Programming](../guides/practices/pair-programming.md)
 * [Specification by Example](../education/trails/specification-by-example.md)
-* [Story Mapping](https://github.com/civilcode/playbook/tree/821d56b5e92a324c0a7cacb4655cffe44c49da65/education/trails/story-mapping.md) \(User-driven Discovery\)
-
-
-
+* [Story Mapping](../education/trails/story-mapping.md) (User-driven Discovery)
+* [Testing](../education/trails/testing.md)

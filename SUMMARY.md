@@ -34,6 +34,6 @@
     * [Object Design](education/trails/object-design.md)
     * [Object Modeling](education/trails/object-modeling.md)
     * [Specification by Example](education/trails/specification-by-example.md)
-    * [Story Mapping](education/trails/storymapping.md)
+    * [Story Mapping](education/trails/story-mapping.md)
     * [Testing](education/trails/testing.md)
     * [Type Classes](education/trails/type-classes.md)
