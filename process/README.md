@@ -13,8 +13,8 @@
 The key practices we use \(linked to education trails\):
 
 * [Domain-Driven Design](../education/trails/domain-driven-design.md)
-* [Event Storming](../education/trails/event-storming.md) \(Business-driven Discovery\)
+* [Event Storming](../education/trails/event-storming.md) (Business-driven Discovery)
 * [Feature-Driven Development](../education/trails/feature-driven-development.md)
 * [Object Modeling](../education/trails/object-modeling.md)
 * [Specification by Example](../education/trails/specification-by-example.md)
-* [Story Mapping](../education/trails/story-mapping.md) \(User-driven Discovery\)
+* [Story Mapping](../education/trails/story-mapping.md) (User-driven Discovery)
