@@ -10,7 +10,7 @@
 
 ## Practices
 
-The key practices we use \(linked to education trails\):
+The key practices we use (linked to education trails):
 
 * [Domain-Driven Design](../education/trails/domain-driven-design.md)
 * [Event Storming](../education/trails/event-storming.md) (Business-driven Discovery)
