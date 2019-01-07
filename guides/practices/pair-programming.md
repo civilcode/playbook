@@ -71,6 +71,16 @@ Merge the [atom-config.cson](https://github.com/civilcode/playbook/tree/821d56b5
 
 Select "Choose both \(left first\)" and save the merge to ~/.atom/config.cson
 
+#### Themes
+
+The default themes used for applications are "light":
+
+* MacOS: Light
+* Atom: Atom Light (UI) / One Light (Syntax)
+* iTerm: Solarize
+
+If the pair wants to change the themes, this may be negotiated.
+
 ### Screen Configuration
 
 Pair programming is done in [full-screen, split-mode](https://support.apple.com/en-ca/HT204948) with the editor on the left hand-side and the terminal on the right-hand side. It is helpful to be familiar with [Mission Control](https://support.apple.com/en-ca/HT204100) to work with fullscreens gracefully.
