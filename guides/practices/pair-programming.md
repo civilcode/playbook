@@ -52,7 +52,7 @@ Install shell commands from the menu: `Atom > Install Shell Integration`.
 Use this script to install all of the required packages:
 
 ```text
-apm install Sublime-Style-Column-Selection atom-elixir atom-elixir-formatter language-elixir
+apm install Sublime-Style-Column-Selection atom-elixir language-elixir
 ```
 
 #### Editor Settings
