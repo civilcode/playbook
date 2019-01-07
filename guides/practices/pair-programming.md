@@ -98,7 +98,12 @@ It is responsibility of one of the pair members to prepare the cloud pairing sta
 
 ## Getting Started
 
-Before starting a new pairing session, one of the members should get the pairing station up and ready.
+Before starting a new pairing session
+
+1. one of the members prepares the workstation
+2. negotations are completed, e.g. themes; when to take breaks and lunch
+
+*Note: breaks are very important to take. Try to take a break every 1.5 hours for 15 mins.*
 
 ### Git user
 
@@ -180,9 +185,8 @@ For the pair:
 
 3. If the pair disagrees on design or implementation and cannot come up with an agreement, the pair needs to determine if the issue is the technical lead or another team member should be brought in and a discussion should happen.  If no-one is available, a solution **that leaves options open**  should be adopted so progress can be made; the issue can then be discussed when the technical lead or another member becomes available. It maybe determined that the issue is not project specific, i.e. is a general design issue and requires R&D. At this point, an issue will be created in our reference repository and scheduled for investigation.
 4. The code is shared by the development team, therefore use _we_ instead of _you_ or _I_ when referring to the code.
-5. Do not forget to take breaks.
-6. Be proud of what you achieved as a pair. Take time to admire and feel good about the code.
-7. Be mindful of your hygiene.
+5. Be proud of what you achieved as a pair. Take time to admire and feel good about the code.
+6. Be mindful of your hygiene.
 
 For the driver:
 
