@@ -1,10 +1,10 @@
 # Build a Feature List
 
-| Type | Template | Example | CivilCode | Story Mapping [1] |
-| --- | --- | --- | --- | --- |
-| Major Feature Sets | `<object> management` | Car Service Management | Module | Areas |
-| Feature Sets | `<action><-ing> a(n) <object>` | Scheduling a Service | Ability | Activities |
-| Feature | `<action><result><object>` | Schedule a service for a car | Task | Tasks |
+| Type               | Template                       | Example                      | CivilCode | Story Mapping [1] |
+| ------------------ | ------------------------------ | ---------------------------- | --------- | ----------------- |
+| Major Feature Sets | `<object> management`          | Car Service Management       | Module    | Areas             |
+| Feature Sets       | `<action><-ing> a(n) <object>` | Scheduling a Service         | Ability   | Activities        |
+| Feature            | `<action><result><object>`     | Schedule a service for a car | Task      | Tasks             |
 
 * Features are granular (max. than 3-days, most take less)
 * Full feature template: `<action> the <result> <by|for|of|to> a(n) <object>`
