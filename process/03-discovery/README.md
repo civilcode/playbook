@@ -42,6 +42,7 @@ Scheduled across two half-days, ideally Tuesday morning and a Wednesday morning.
 * [ ] Release Plan \(minimum of an MVP\)
 * [ ] Describe the type of app being built
 * [ ] Responsibilities for team members
+* [ ] Feature List
 * [ ] Preliminary budget by module \(ranges\)
 * [ ] List of outstanding questions
 
@@ -54,11 +55,19 @@ Scheduled across two half-days, ideally Tuesday morning and a Wednesday morning.
 
 ## How we estimate
 
-For the back-end development, we come up with a list features \(module/abilities/tasks\) and assign a weight to each task \(small, medium, large, x-large\) and we then assign a number of blocks per weight. We then have a total of blocks per module.
+An estimate of the required budget is made based on the [Feature List](process/05-development/feature-list.md).
+The feature list is divided in modules and abilities. The tasks for abilities are not identified in the
+discovery due to time constraints. Tasks are identified in the discovery of a module during the project.
 
-We then add a 25% for the user interface. That pourcentage depends on the kind of application and the discussions that happened during the discovery session.
+Abilities are identified as commands, queries and reports. Due to the complex nature of reports,
+these abilities also have the tasks identified to help with the estimation process.
 
-We add around 5 blocks for setting up the IT infrastructure.
+Each ability is estimated in "ideal days" based on a comparison made against the archetype
+abilities. An archetype ability is a simple ability. The comparison involves two developers playing
+[planning poker](https://en.wikipedia.org/wiki/Planning_poker) to determine if an ability is
+the same; one, two or more times complex than the archetype.
 
-Finally, we add around 15% for project management.
+There are also some additional overheads in developing an application which is represented as
+a percentage of the entire project, e.g. project management.
 
+See [the template for more details](https://docs.google.com/spreadsheets/d/1TSUF8wTiT6NuQP5gy_Y53DFApHrO8EuTS4g5myOYwrY/edit#gid=0).
