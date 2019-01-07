@@ -168,7 +168,7 @@ For the pair:
 
    When writing code to make a test pass, the goal is to get something quick and dirty working. Then the pair can discuss and improve the code. If the driver had the keyboard for a while, the watcher can then take over and do some refactoring before writing a new test.
 
-3. If the pair disagrees on design or implementation and cannot come up with an agreement, the technical lead or another team member should be brought in and a discussion should happen.  If no-one is available, a solution **that leaves options open**  should be adopted so progress can be made; the issue can then be discussed when the technical lead or another member becomes available.
+3. If the pair disagrees on design or implementation and cannot come up with an agreement, the pair needs to determine if the issue is the technical lead or another team member should be brought in and a discussion should happen.  If no-one is available, a solution **that leaves options open**  should be adopted so progress can be made; the issue can then be discussed when the technical lead or another member becomes available. It maybe determined that the issue is not project specific, i.e. is a general design issue and requires R&D. At this point, an issue will be created in our reference repository and scheduled for investigation.
 4. The code is shared by the development team, therefore use _we_ instead of _you_ or _I_ when referring to the code.
 5. Do not forget to take breaks.
 6. Be proud of what you achieved as a pair. Take time to admire and feel good about the code.
@@ -196,4 +196,3 @@ For the watcher:
 * [Compare 6 Different Pair Programming Styles](https://stackify.com/pair-programming-styles/)
 * [Pair Programming Ping Pong Pattern](http://wiki.c2.com/?PairProgrammingPingPongPattern)
 * [How to Pair Program](https://www.youtube.com/watch?v=YhV4TaZaB84) - Video
-
