@@ -172,7 +172,7 @@ Things to watch-out for to prevent breaking the loop:
 
 **The driver can refactor the code in which modifications are about to happen only when all tests are passing.**
 
-If the pair is performing long refactoring, the role switching can happen after each refactoring or group of small refactoring. The driver should watch for not keeping control for too long, otherwise the watcher may "loose interest".
+If the pair is performing long refactoring, the role switching can happen after each refactoring or group of small refactoring. The driver should watch for not keeping control for too long, otherwise the watcher may "lose interest".
 
 ### Guidelines
 
