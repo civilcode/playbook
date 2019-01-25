@@ -43,34 +43,6 @@ If you and your pair have negotiated a different setup, you're welcome to use it
 
 ### Atom Configuration
 
-#### Shell commands
-
-Install shell commands from the menu: `Atom > Install Shell Integration`.
-
-#### Packages
-
-Use this script to install all of the required packages:
-
-```text
-apm install Sublime-Style-Column-Selection atom-elixir language-elixir
-```
-
-#### Editor Settings
-
-With a fresh install of Atom you will have a config file that looks something like this:
-
-```text
-"*":
-  "exception-reporting":
-    userId: "your-unique-id"
-```
-
-Merge the [atom-config.cson](https://github.com/civilcode/playbook/tree/821d56b5e92a324c0a7cacb4655cffe44c49da65/guides/practices/atom-config.cson) file using the following command:
-
-`opendiff ~/.atom/config.cson atom-config.cson`
-
-Select "Choose both \(left first\)" and save the merge to ~/.atom/config.cson
-
 #### Themes
 
 The default themes used for applications are "light":
