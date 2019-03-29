@@ -89,12 +89,14 @@ As we work in different time-zones, it's essential that we check-out on Slack at
 
 ```text
 out:
+• in-progress: _Display the next/most recent meetup from Meetup.com_; learned how the Meetup.com API works; paired with @jane
+  https://github.com/montrealelixir/website/issues/12
 • blocked: _Display 3 most recent tweets_; currently waiting on @john for review
   https://github.com/montrealelixir/website/pull/13
-• completed: _Upgrade to Phoenix 1.3.x_; waiting review, paired with @jane
+• in-review: _Upgrade to Phoenix 1.3.x_; ready for @jane
   https://github.com/montrealelixir/website/pull/15
-• wip: _Display the next/most recent meetup from Meetup.com_; learned how the Meetup.com API works
-  https://github.com/montrealelixir/website/issues/12
+• completed: _Upgrade to Ecto 3_
+  https://github.com/montrealelixir/website/pull/16
 ```
 
 #### Template
@@ -106,6 +108,6 @@ Based on this example each line of the check-in has:
 3. the title of the issue/pull-request
 4. the status of issue/pull-request
 5. optionally the person you paired with
-6. optionally description text, required for `wip` issues
+6. optionally description text, required for `in-progress` issues
 7. the link to the issue/pull-request; starting on a new line
 
