@@ -1,4 +1,8 @@
-# Process
+# CivilCode Method
+
+The CivilCode Method is a description of our _way-of-working_. The method is a set of practices and tools used by our team to guide and support our work. "A _practice_ is a repeatable approach to doing something with a specific objective in mind."[^1]
+
+The terminology used to describe our _method_ is based on the [Essence Kernel and Language](http://semat.org/documents/20181/57862/formal-18-10-02.pdf/866c80c0-cdc8-488b-bcf8-0c67cb60b5d7) from the SEMAT (Software Engineering Method and Theory) initiative.
 
 ## Stages
 
@@ -24,3 +28,5 @@ The key practices we use (linked to education trails):
 ## Templates
 
 * [Tracking Tool](https://docs.google.com/spreadsheets/d/1TSUF8wTiT6NuQP5gy_Y53DFApHrO8EuTS4g5myOYwrY/edit#gid=0).
+
+[^1] All quotes from http://semat.org/documents/20181/57862/formal-18-10-02.pdf/866c80c0-cdc8-488b-bcf8-0c67cb60b5d7
