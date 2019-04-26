@@ -9,7 +9,7 @@
 
 * [Domain-Driven Design in Practice](http://app.pluralsight.com/courses/domain-driven-design-in-practice): a good intermediate Pluralsight course.
 * [Patterns, Principles, and Practices of Domain-Driven Design](https://www.amazon.com/Patterns-Principles-Practices-Domain-Driven-Design/dp/1118714709/): we've found this to be the most practical book to start with.
-* [Implementing Domain-Driven Design](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577/): and this is the next book, it's value is in a [consistent example application](https://github.com/VaughnVernon)\].
+* [Implementing Domain-Driven Design](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577/): and this is the next book, it's value is in a [consistent example application](https://github.com/VaughnVernon/IDDD_Samples).
 
 ## Advanced
 
