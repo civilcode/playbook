@@ -63,6 +63,11 @@ clients had connection problems. After a restart, these were resolved.
 3. Open Network Preferences, and connect to the VPN profile added
 4. Under `Advanced...` options check "Send all traffic over VPN connection"
 
+### Access a machine on the VPN
+
+1. Open Screen Sharing application
+2. Connect to `quebec`, do not use the `.local` prefix, e.g. `quebec.local`
+
 ## Troubleshoot
 
 * on the server: `tail -f /var/log/ppp/vpnd/log`
