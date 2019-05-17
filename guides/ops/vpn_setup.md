@@ -1,23 +1,39 @@
 # How to setup the VPN
 
-## Router
+Setting up the VPN requires:
 
-* login to the router admin interface on [http://192.168.0.1](http://192.168.0.1)
-* Go to _Expert mode_ \(up right\)
-* Click on the cog on the left bar menu
+1. Configure the DNS
+2. Configure the router
+3. Setup VPN server via VPN Enabler
+
+## Background
+
+Apple [removed the VPN service](https://support.apple.com/en-ca/HT208312) in macOS Server 5.7.1 (Mojave).
+The VPN Server is still available on macOS but requires activation. The
+[VPN Enabler](https://cutedgesystems.com/software/VPNEnablerForMojave/) third-party software is the
+easiest way to activate it.
+
+## Confiture the DNS
+
+Setup a domain to access the DNS on [DNSimple](https://dnsimple.com/). See 1Password for the
+domain to use.
+
+## Configure the Router
+
+The router needs ports forwarded to the machine hosting the VPN server.
+
+1. Login into the router (see 1Password)
+2. Go to: _Expert Mode &gt; Configuration (cog icon)_
 
 ### Reserve IP address for server in the DHCP
 
-* Go to _Network &gt; DHCP Server &gt; Client List_
+1. Go to _Network &gt; DHCP Server &gt; Client List_
+2. Reserve the IP address or set them. We now have _192.168.0.5_ reserved for `quebec.local`
 
-  Reserve the ips address or set them.
+### Setup the router
 
-  We now have _192.168.0.5_ reserved for `quebec.local`
-
-### Setup Videotron router
-
-* Go to _Network &gt; NAT &gt; Port Forwarding_
-* Add Nat Port forwarding rules targetting the VPN server
+1. Go to _Network &gt; NAT &gt; Port Forwarding_
+2. Add Nat Port forwarding rules targeting the VPN server
 
   ```text
   - UDP 500 to 192.168.0.5
@@ -25,54 +41,32 @@
   - UDP 1701 to 192.168.0.5
   ```
 
-### Setup VPN server via MacOS Server
+### Setup VPN server
 
-Setup with a shared secret. That's the password that will be used to connect to the VPN
+1. Download [VPN Enabler](https://cutedgesystems.com/software/VPNEnablerForMojave/); the software
+   license is in 1Password.
+2. Move the file into `Applications` and start the program
+3. Follow the instructions for all three steps (Step 4. was completed above, router config)
 
-* Buy and install MacOS Server. Launch it
-* Choose "This Mac" to manage its services 
-* Go to VPN
-* Fill the VPN settings
-
-  ```text
-  VPN Host Name: vpn.civilcode.io  
-  Shared Secret: password used to connect to the VPN  
-  Client address: limit number of connections to the VPN (10)
-  ```
-
-  The Status should read "Reachable over the Internet at "
-
-### Add User via MacOS Server
-
-The users of the system are the ones that will be allowed to connect by default. The list of allowed users can be limited. In MacOS Server, go to Account and add new users
+It is recommended to restart the computer after installation. After the initial installation,
+clients had connection problems. After a restart, these were resolved.
 
 ### Distribute the VPN config file
 
-In MacOS Server &gt; VPN:
-
-* Save the profile in the Configuration Profile field \(default name: _VPN.config\_mobile_\)
-* Share it to your peers
+1. Use VPN Enabler to "Create Config Profile" for each user. (create a unique password for each user)
+2. Forward the config file to each user.
 
 ### Setup Client
 
-#### Via the config file
+1. Save and click on the config file sent.
+2. Save the profile
+3. Open Network Preferences, and connect to the VPN profile added
+4. Under `Advanced...` options check "Send all traffic over VPN connection"
 
-The config file can be found in 1password in the Shared vault under _VPN.config\_mobile_.
+### Access a machine on the VPN
 
-* Save and click on the configuration file
-* Save the profile
-* Enter your credentials set at on the VPN server \(eg _johndoe_\)
-* Open Network Preferences, and connect to the VPN profile added
-* Under `Advanced...` options check "Send all traffic over VPN connection"
-
-#### Manually
-
-* Open Network Preferences
-* create a connection profile for VPN with a IKEv2 or L2TPE protocol
-
-  -- _Server Address_: vpn.civilcode.io
-
-  _\_ Account Name: enter the user account name that has been created on the server \(eg: \_johndoe_\)
+1. Open Screen Sharing application
+2. Connect to `quebec`, do not use the `.local` prefix, e.g. `quebec.local`
 
 ## Troubleshoot
 
@@ -81,4 +75,3 @@ The config file can be found in 1password in the Shared vault under _VPN.config\
 * the VPN connection only works outside of the network, otherwise will drop UDP request \(`Dropping TTL exceeded..`\)
 
 Enjoy Canadian privacy!
-
