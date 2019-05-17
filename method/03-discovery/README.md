@@ -55,7 +55,7 @@ Scheduled across two half-days, ideally Tuesday morning and a Wednesday morning.
 
 ## How we estimate
 
-An estimate of the required budget is made based on the [Feature List](process/05-development/feature-list.md).
+An estimate of the required budget is made based on the [Feature List](method/05-development/feature-list.md).
 The feature list is divided in modules and abilities. The tasks for abilities are not identified in the
 discovery due to time constraints. Tasks are identified in the discovery of a module during the project.
 

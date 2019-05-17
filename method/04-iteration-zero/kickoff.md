@@ -7,7 +7,7 @@ Schedule on Tuesday's, never Monday's.
 Purpose: provide an understanding of the development and feedback process and the tooling to support that
 
 * introduction
-* overview of process
+* overview of the method
   1. analysis \(domain model\)
   2. design \(mocks up\)
   3. development
@@ -25,4 +25,3 @@ Purpose: provide an understanding of the development and feedback process and th
   * GitHub \(feedback on development\)
   * Basecamp \(general communication, non-development to-dos\)
 * demonstration
-
