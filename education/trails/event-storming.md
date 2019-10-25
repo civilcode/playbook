@@ -10,5 +10,5 @@
 
 ## Other Resources
 
+* [Event Modeling: What is it?](https://eventmodeling.org/posts/what-is-event-modeling/)
 * [Nicholas' Cheatsheet](https://www.evernote.com/l/AAHqFu6VlOlI4omBCajU60pRkjXvBmMK3qs)
-
