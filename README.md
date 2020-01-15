@@ -1,9 +1,5 @@
 # The CivilCode Playbook
 
-## About CivilCode Inc
-
-CivilCode Inc. is a [custom software development](https://www.civilcode.io) studio developing tailored business applications in [Elixir](http://elixir-lang.org/) and [Phoenix](http://www.phoenixframework.org/) in Montreal, Canada.
-
 ## Mission
 
 To craft reliable and sustainable software that powers your business using transparent and collaborative practices.
@@ -23,4 +19,8 @@ To craft reliable and sustainable software that powers your business using trans
 * Transparency: clients being upfront about budgets, be upfront about our mistakes
 * Professional Development: investing in ourselves and other team members
 * Efficiency: good, repeatable processes, consistency across projects, agreed set of technologies
+
+## About CivilCode Inc
+
+CivilCode Inc. is a [custom software development](https://www.civilcode.io) studio developing tailored business applications with [Elixir](http://elixir-lang.org/) and [Phoenix](http://www.phoenixframework.org/) in Montreal, Canada.
 
