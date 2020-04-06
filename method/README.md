@@ -8,7 +8,7 @@ The terminology used to describe our _method_ is based on the [Essence Kernel an
 
 1. [Engagement](01-engagement/)
 2. [Onboarding](02-onboarding/)
-3. [Discovery](03-discovery.md)
+3. [Discovery](03-discovery/)
 4. [Iteration Zero](04-iteration-zero/)
 5. [Development](05-development/)
 
