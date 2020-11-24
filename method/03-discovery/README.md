@@ -43,6 +43,7 @@ Scheduled across two half-days, ideally Tuesday morning and a Wednesday morning.
 * [ ] Describe the type of app being built
 * [ ] Responsibilities for team members
 * [ ] Feature List
+* [ ] Reports
 * [ ] Preliminary budget by module \(ranges\)
 * [ ] List of outstanding questions
 
