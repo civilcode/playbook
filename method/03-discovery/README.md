@@ -42,6 +42,8 @@ Scheduled across two half-days, ideally Tuesday morning and a Wednesday morning.
 * [ ] Release Plan \(minimum of an MVP\)
 * [ ] Describe the type of app being built
 * [ ] Responsibilities for team members
+* [ ] Prerequistes
+* [ ] Requirements (beyond Features)
 * [ ] Feature List
 * [ ] Reports
 * [ ] Preliminary budget by module \(ranges\)
