@@ -39,7 +39,7 @@ Scheduled across two half-days, ideally Tuesday morning and a Wednesday morning.
 * [ ] Actor Table
 * [ ] Concept Map
 * [ ] Story Map or Event Map
-* [ ] Release Plan \(minimum of an MVP\)
+* [ ] Release Plan (MVP)
 * [ ] Describe the type of app being built
 * [ ] Responsibilities for team members
 * [ ] Prerequistes
