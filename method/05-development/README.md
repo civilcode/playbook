@@ -22,7 +22,7 @@ We develop the application feature by feature using the [Feature-Driven Developm
 4. We _Design by Feature_
 5. We _Build by Feature_
 
-For building features please review the [reference application and guides](https://github.com/civilcode/magasin).
+For building features please review the [Github Issues Template folder](https://github.com/civilcode/acme-platform/tree/master/.github/ISSUE_TEMPLATE) in the example application that provide checklists for modules, abilities, tasks.
 
 ### 3. How we automate acceptance tests
 
