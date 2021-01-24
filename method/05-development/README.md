@@ -10,7 +10,7 @@ Before contributing to development there are a number of concepts you need to un
 
 ## 1. How we model the domain
 
-See the [Object Modeling Trail](../../education/trails/object-modeling.md).
+See the [Object Modeling](../../education/trails/object-modeling.md) Trail.
 
 ## 2. How we develop features
 
